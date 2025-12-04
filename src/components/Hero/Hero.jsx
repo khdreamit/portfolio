@@ -14,7 +14,7 @@ const Hero = (props) => {
             <h4 className="text-secondary fw-semibold mb-2">Hello, I'm</h4>
             <h1 className="fw-bold display-4">MD. ABDUL HALIM</h1>
             <p className="mt-3 text-dark fs-5">
-              I am Digital Marketing Expert. I specialize in SEO, YouTube Channel Optimization, Social Media Marketing, and Content Strategy. I craft smart, data-driven strategies that increase visibility, generate leads, and turn online traffic into real business results. My mission: delivering measurable growth and making your brand shine in the digital world.
+                A dedicated Digital Marketing Expert specializing in SEO, YouTube Channel Optimization, Social Media Marketing, and Content Strategy. Focused on crafting smart, data-driven marketing solutions that boost visibility, attract the right audience, and convert traffic into real business growth. Every strategy is designed with one goal in mind: delivering measurable results and helping your brand stand out in the digital world.
             </p>
 
             <div className="mt-4 d-flex gap-3">
