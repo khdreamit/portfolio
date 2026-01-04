@@ -17,6 +17,13 @@ import Skills from './components/Skills/Skills.jsx';
 import ClientMeeting from './components/ClientMeeting/ClientMeeting.jsx';
 import ClientReview from './components/ClientReview/ClientReview.jsx';
 import Contact from './components/Contact/Contact.jsx';
+import AuditPlan from './components/AuditPlan/AuditPlan.jsx';
+import OnPageSeo from './components/onPage/OnPageSeo.jsx';
+import TechnicalSeo from './components/TechnicalSeo/TechnicalSeo.jsx';
+import OffPageSeo from './components/OffPageSeo/OffPageSeo.jsx';
+import LocalSeo from './components/LocalSeo/LocalSeo.jsx';
+import Shopify from './components/Shopify/Shopify.jsx';
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -35,8 +42,18 @@ createRoot(document.getElementById('root')).render(
       <Route path='/meeting' element= {<ClientMeeting />} />
       <Route path='/review' element= {<ClientReview />} />
       <Route path='/contact' element= {<Contact />} />
+      <Route path='/auditplan' element= {<AuditPlan />} />
+      <Route path='/onpage' element= {<OnPageSeo />} />
+      <Route path='/technical' element= {<TechnicalSeo />} />
+      <Route path='/offpage' element= {<OffPageSeo />} />
+      <Route path='/local' element= {<LocalSeo />} />
+      <Route path='/shopify' element= {<Shopify />} />
       
-           
+      
+      
+      
+      
+               
     </Routes>
     </HashRouter>
     

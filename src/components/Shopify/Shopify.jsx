@@ -12,7 +12,7 @@ import { FaSearch, FaChartLine, FaTags, FaPenNib,FaShoppingCart, FaImage, FaChar
 
 
 
-const Google = () => {
+const Shopify = () => {
 
 const services = [
   {
@@ -231,38 +231,7 @@ const items = [
 </div>
 
 
-{/* Googler intro  */}
 
-{/* <div className="py-5 yourIntro">
-  <div className="container-fluid px-5">
-    <div className="row align-items-center">
-
-      
-      <div className="col-lg-6 mb-4 mb-lg-0 text-center youImg">
-        <img src={YouMan} alt="Profile" className="img-fluid rounded-3 shadow" style={{ maxWidth: "70%" }}/>
-      </div>
-
-      
-      <div className="col-lg-6">
-        <h4 className="text-secondary fw-semibold mb-2">Hello, I'm</h4>
-        <h1 className="fw-bold display-4">MD. ABDUL HALIM</h1>
-        
-        <p className="mt-3 text-dark fs-5">
-           I am specialize in creating high-performing Google Ads campaigns that drive real results. From keyword research and ad copywriting to campaign setup and optimization, every strategy is tailored to increase visibility, attract quality leads, and maximize ROI. Whether you’re a small business or a growing brand, i ensure your ads reach the right audience at the right time.
-        </p>
-
-        <div className="mt-4 d-flex gap-3">
-          <a href="https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22" 
-             className="btn btn-dark px-4 py-2">
-            Contact With Me
-          </a>
-          
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div> */}
 
 
 
@@ -554,4 +523,4 @@ const items = [
     );
 };
 
-export default Google;
+export default Shopify;

@@ -92,7 +92,7 @@ const submenu = [
                                 <FaTelegram /> +8801947349917
                             </li>
                             <li className="mb-2 d-flex align-items-center gap-2">
-                                <FaEnvelope /> Khdreamit@gmail.com
+                                <FaEnvelope /> khdreamit@gmail.com
                             </li>
                         </ul>
                     </div>
@@ -103,7 +103,7 @@ const submenu = [
 
                 {/* Copyright */}
                 <p className="text-center m-0 small">
-                    © {new Date().getFullYear()} MyWebsite — All Rights Reserved.
+                    © {new Date().getFullYear()} Abdul Halim — All Rights Reserved.
                 </p>
             </div>
         </footer>

@@ -78,44 +78,77 @@ const services = [
 
 
 
-  const items = [
-    "Channel Audit Report – SEO issues, optimization gaps & growth roadmap",
-    "Video SEO Optimization – Titles, descriptions, tags & metadata",
-    "Keyword Research File – Long-tail, short-tail, and low-competition keywords",
-    "CTR Optimization Guide – Thumbnail suggestions & A/B testing plan",
-    "Competitor Analysis Report – Insights to outrank winning channels",
-    "Algorithm Behavior Analysis – Retention, suggested video & timing strategy",
-    "Ranking Strategy Plan – 30-day SEO action plan",
-    "SEO Score Improvement Report – Before/after performance summary",
-    "Bonus Resources – Content ideas + thumbnail scripts"
-  ];
+const items = [
+  {
+    title: "Campaign Overview",
+    desc: "A summary of all active and completed campaigns, including their objectives such as Traffic, Leads, Sales, or Engagement."
+  },
+  {
+    title: "Budget & Spending Analysis",
+    desc: "A breakdown of the total budget, actual spend, and daily spending patterns to ensure full transparency."
+  },
+  {
+    title: "Reach & Impressions",
+    desc: "Detailed data showing how many people saw the ads and how many times they were displayed."
+  },
+  {
+    title: "Click & Engagement Metrics",
+    desc: "Key performance indicators such as Total Clicks, CTR, and CPC to analyze ad engagement."
+  },
+  {
+    title: "Lead & Sales Performance",
+    desc: "Conversion metrics including total leads, cost per lead, purchases, conversions, and ROAS."
+  },
+  {
+    title: "Audience Performance Insights",
+    desc: "Insights on best-performing age groups, gender, location, and winning audience segments."
+  },
+  {
+    title: "Creative Performance Review",
+    desc: "Evaluation of top-performing images, videos, headlines, captions, and engagement scores."
+  },
+  {
+    title: "Device Performance",
+    desc: "Comparison of results between mobile and desktop to detect high-performing platforms."
+  },
+  {
+    title: "Placement Performance",
+    desc: "Performance across Facebook Feed, Instagram Feed, Reels, Stories, and other placements."
+  },
+  {
+    title: "Conversion Tracking & Pixel Insights",
+    desc: "Data including landing page activity, Add to Cart, Checkout, Purchases, and pixel event tracking."
+  },
+  {
+    title: "Key Insights & Next-Step Recommendations",
+    desc: "A concise summary of what worked, areas to improve, and strategic recommendations."
+  }
+];
 
-  const splitText = (text) => {
-    const [title, desc] = text.split("–");
-    return {
-      title: title.trim(),
-      desc: desc ? desc.trim() : ""
-    };
-  };
+
 
 
 
   const faqData = [
     {
-      q: "Do you need channel access?",
-      a: "I can deliver full audit and editable files without access. If you want me to implement changes, channel manager access is required (no password, manager role)."
+      q: "Do I need to give access to my Facebook Page?",
+      a: "Yes. To run and manage your ads, I require Partner Access to your Facebook Page. You can grant only the necessary permissions (Advertiser/Analyst), ensuring your page remains completely secure and fully under your control."
     },
     {
-      q: "Do you guarantee subscribers or views?",
-      a: "I cannot guarantee specific numbers. I guarantee professional SEO improvements and an actionable plan that increases the chance of improved discovery and growth."
+      q: "What results can I expect from Facebook Ads?",
+      a: "Facebook Ads can generate leads, sales, website traffic, and brand awareness. Results depend on strategy, audience targeting, creatives, and budget."
     },
     {
-      q: "Can you help with thumbnails/design?",
-      a: "Yes — I provide thumbnail guidelines and 2–3 mockups. Full design work can be added as an extra."
+      q: "Do you provide monthly performance reports?",
+      a: "Yes. Every client receives a detailed monthly report covering reach, clicks, leads, sales, ROAS, and all key performance metrics."
     },
     {
-      q: "How do you measure success?",
-      a: "Key metrics: search impressions, CTR, average view duration, suggested impressions, and subscriber rate. I provide before/after screenshots for transparency."
+      q: "Do you guarantee specific results?",
+      a: "I don’t offer guaranteed numbers, but I follow a data-driven approach focused on delivering strong, measurable performance with continuous optimization."
+    },
+    {
+      q: "How long does it take to see results?",
+      a: "Initial results typically appear within 7–14 days. For conversion-focused campaigns, it may take 2–4 weeks to fully optimize and scale."
     }
   ];
 
@@ -172,16 +205,16 @@ const services = [
 
 {/* Facebooker intro  */}
 
-<div className="py-5 yourIntro">
+{/* <div className="py-5 yourIntro">
   <div className="container-fluid px-5">
     <div className="row align-items-center">
 
-      {/* Left Image */}
+      
       <div className="col-lg-6 mb-4 mb-lg-0 text-center youImg">
         <img src={YouMan} alt="Profile" className="img-fluid rounded-3 shadow" style={{ maxWidth: "70%" }}/>
       </div>
 
-      {/* Right Content */}
+      
       <div className="col-lg-6">
         <h4 className="text-secondary fw-semibold mb-2">Hello, I'm</h4>
         <h1 className="fw-bold display-4">MD. ABDUL HALIM</h1>
@@ -201,7 +234,7 @@ const services = [
 
     </div>
   </div>
-</div>
+</div> */}
 
 
 
@@ -285,7 +318,7 @@ const services = [
       </p>
     </div>
 
-    {/* ---- FIRST 6 BOXES (3 + 3) ---- */}
+    {/* ---- FIRST 6 BOXES  ---- */}
     <div className="row g-5">
       {services.map((service, idx) => (
         <div key={idx} className="col-lg-4 col-md-6">
@@ -323,49 +356,50 @@ const services = [
 
 {/* Deliverables  */}
 
-   <section className="py-5 deliverable-wow">
-      <div className="container-fluid px-5">
+<section className="py-5 deliverable-wow">
+  <div className="container-fluid px-5">
 
-        {/* Title */}
-        <div className="text-center mb-5">
-          <h1 className="fw-bold wow-title">What You Will Get (Deliverables)</h1>
-          <div className="underline mx-auto"></div>
+    {/* Title */}
+    <div className="text-center mb-5">
+      <h1 className="fw-bold wow-title">What You Will Get (Deliverables)</h1>
+      <div className="underline mx-auto"></div>
 
-          <p className="wow-subtitle text-muted mt-3 fs-5">
-            You will receive a complete YouTube SEO package designed to boost visibility,
-            rankings, and audience engagement.
-          </p>
-        </div>
+      <p className="wow-subtitle text-muted mt-3 fs-5">
+        Every Facebook Ads project includes a clear, data-driven performance report designed to help clients understand results and make smarter marketing decisions. My reporting focuses on transparency, insights, and measurable growth.
+      </p>
+    </div>
 
-        {/* Box */}
-        <div className="row justify-content-center">
-          <div className="col-lg-10">
-            <div className="wow-box p-4 p-md-5">
+    {/* Box */}
+    <div className="row justify-content-center">
+      <div className="col-12">
+        <div className="wow-box p-4 p-md-5">
 
-              <h4 className='fw-bold pb-4'>My deliverables include:</h4>
+          <h4 className='fw-bold pb-4'>My deliverables include:</h4>
 
-              {items.map((item, i) => {
-                const { title, desc } = splitText(item);
-                return (
-                  <div key={i} className="wow-item d-flex mb-4">
-                    <div className="icon-wrap me-3">
-                      <FaCheckCircle className="wow-icon" />
-                    </div>
-
-                    <div>
-                      <h5 className="fw-bold mb-1 item-title">{title}</h5>
-                      <p className="text-muted mb-0 item-desc">{desc}</p>
-                    </div>
+          <div className="row">
+            {items.map((item, i) => (
+              <div key={i} className="col-md-6 mb-4">
+                <div className="wow-item d-flex">
+                  <div className="icon-wrap me-3">
+                    <FaCheckCircle className="wow-icon" />
                   </div>
-                );
-              })}
 
-            </div>
+                  <div>
+                    <h5 className="fw-bold mb-1 item-title">{item.title}</h5>
+                    <p className="text-muted mb-0 item-desc">{item.desc}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
-        </div>
 
+        </div>
       </div>
-    </section>     
+    </div>
+
+  </div>
+</section>
+   
             
 
 {/* FAQ  */}
@@ -411,7 +445,7 @@ const services = [
     <div className='bacgkround' id='seePrice'>
     <div className="container-fluid px-5 py-5">
       <div>
-        <h2 className="text-center fw-bold mb-2">YouTube SEO Pricing Plans</h2>
+        <h2 className="text-center fw-bold mb-2">Facebook Ads Pricing Plans</h2>
        <p className="text-center text-muted mb-5">Choose a plan that fits your growth goal</p>
       </div>
 
@@ -423,15 +457,17 @@ const services = [
             <div className="plan-title">Basic</div>
 
             <h2 className="price">
-              <span className="old-price">$49</span> $29 <span>/Project</span>
+              <span className="old-price">$250</span> $199 <span>/Month</span>
             </h2>
 
             <ul className="features list-unstyled text-start mt-3">
-              <li><FaCheck /> Title Optimization</li>
-              <li><FaCheck /> Keyword Research</li>
-              <li><FaCheck /> Thumbnail Suggestion</li>
-              <li><FaTimes className="text-danger" /> Competitor Analysis</li>
-              <li><FaTimes className="text-danger" /> SEO Report</li>
+              <li><FaCheck /> 1 Facebook Ads Campaign</li>
+              <li><FaCheck /> Audience Research & Targeting</li>
+              <li><FaCheck /> Ad Setup & Creative Design (1-2 Ads)</li>
+              <li><FaCheck /> Basic Performance Report</li>
+              <li><FaCheck /> Weekly Performance Summary</li>
+              <li><FaCheck /> Monthly Report & Insights</li>
+              
             </ul>
 
             <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn mt-4 btn">Order Now On WhatsApp</a>
@@ -445,15 +481,17 @@ const services = [
             <div className="plan-title featured-title">Standard</div>
 
             <h2 className="price">
-              <span className="old-price">$89</span> $59 <span>/Project</span>
+              <span className="old-price">$400</span> $349 <span>/Month</span>
             </h2>
 
             <ul className="features list-unstyled text-start mt-3">
-              <li><FaCheck /> Title + Tag Optimization</li>
-              <li><FaCheck /> Full Keyword Plan</li>
-              <li><FaCheck /> Competitor Research</li>
-              <li><FaCheck /> SEO Description</li>
-              <li><FaTimes className="text-danger" /> 24/7 Support</li>
+              <li><FaCheck /> Up to 3 Facebook Ads Campaigns</li>
+              <li><FaCheck /> Advanced Audience Targeting & Segmentation</li>
+              <li><FaCheck /> Ad Setup & Creative Design (3-5 Ads)</li>
+              <li><FaCheck /> A/B Testing & Optimization</li>
+              <li><FaCheck /> Weekly Performance Tracking & Adjustments</li>
+              <li><FaCheck /> Detailed Monthly Performance Report</li>
+              
             </ul>
 
             <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn featured-btn mt-4 btn">Order Now On WhatsApp</a>
@@ -466,15 +504,16 @@ const services = [
             <div className="plan-title">Premium</div>
 
             <h2 className="price">
-              <span className="old-price">$149</span> $99 <span>/Project</span>
+              <span className="old-price">$600</span> $500 <span>/Month</span>
             </h2>
 
             <ul className="features list-unstyled text-start mt-3">
-              <li><FaCheck /> Full YouTube SEO</li>
-              <li><FaCheck /> Ranking Strategy & Audit</li>
-              <li><FaCheck /> Performance Monitoring</li>
-              <li><FaCheck /> Thumbnail A/B Testing</li>
-              <li><FaCheck /> 24/7 Priority Support</li>
+              <li><FaCheck /> Unlimited Facebook Ads Campaigns</li>
+              <li><FaCheck /> Full Audience Research & Segmentation</li>
+              <li><FaCheck /> Ad Setup & Creative Design (5-10 Ads)</li>
+              <li><FaCheck /> A/B Testing, Optimization & Scaling</li>
+              <li><FaCheck /> Advanced Analytics & Performance Reporting</li>
+              <li><FaCheck /> Strategy Consultation & Planning</li>
             </ul>
 
             <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn mt-4 btn">Order Now On WhatsApp</a>

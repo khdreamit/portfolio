@@ -6,10 +6,10 @@ import { FaCheck, FaTimes } from "react-icons/fa";
 import YoutubeHero from '../../assets/youtubeHero.jpg'
 import YouSeo from '../../assets/youSeo.png'
 import '../Youtube/youtube.css'
+import './website.css'
 import "aos/dist/aos.css";
-import YouMan from '../../assets/youMan2.png'
-import ServiceImg from '../../assets/Youtube.jpg'
-import { FaSearch, FaHockeyPuck, FaTags, FaImage , FaChartBar , FaPeopleArrows , FaPuzzlePiece, FaCheckCircle, FaChevronDown} from "react-icons/fa";;
+import {FaAudible, FaSearch, FaTools, FaLink, FaMapMarkerAlt, FaFileAlt,  FaCheckCircle, FaChevronDown} from "react-icons/fa";import { Link } from 'react-router';
+;
 
 
 
@@ -18,90 +18,43 @@ const Website = () => {
 
 const services = [
   {
-    title: "Complete YouTube Channel Audit",
-    icon: <FaSearch />,
-    items: [
-      "Full review of channel settings, branding, and structure",
-      "SEO score analysis for each video",
-      "Identification of issues harming visibility or ranking",
-      "Audience retention and watch-time audit",
-      "Competitor gap analysis",
-      "Actionable recommendations for improvement",
-    ],
+    icon: <FaAudible size={40} className="mb-3 icon"/>,
+    title: 'Audit Plan',
+    description: 'Analyze your website to uncover issues and boost performance, SEO, and user experience.',
+    path: '/auditplan'
   },
   {
-    title: "Keyword Research (Niche + Video-Level)",
-    icon: <FaHockeyPuck />,
-    items: [
-      "In-depth niche keyword analysis",
-      "Long-tail keyword discovery",
-      "High-intent keyword selection",
-      "Competitor keyword comparison",
-      "Click-boost title keyword suggestions",
-      "Full keyword list delivery (Excel/Google Sheet)",
-    ],
+    icon: <FaSearch size={40} className="mb-3 icon"/>,
+    title: 'On-Page SEO',
+    description: 'We improve your titles, headings, content, and structure to help your pages rank better.',
+    path: '/onpage'
   },
   {
-    title: "Title, Description & Tags Optimization",
-    icon: <FaTags  />,
-    items: [
-      "SEO-friendly title writing",
-      "High-ranking keyword placement",
-      "Engaging description with proper structure",
-      "Hashtag optimization",
-      "Tag creation for maximum discoverability",
-      "Compliance with YouTube SEO best practices",
-    ],
+    icon: <FaTools size={40} className="mb-3 icon"/>,
+    title: 'Technical SEO',
+    description: 'We fix behind-the-scenes issues, increase speed, and ensure smooth performance on all devices.',
+    path: '/technical'
   },
   {
-    title: "Thumbnail & CTR Improvement",
-    icon: <FaImage />,
-    items: [
-      "CTR analysis (click-through rate review)",
-      "Thumbnail problem detection",
-      "Color, design & clarity suggestions",
-      "A/B thumbnail guidance",
-      "Title–thumbnail alignment strategy",
-      "Actionable recommendations for improvement",
-    ],
+    icon: <FaLink size={40} className="mb-3 icon"/>,
+    title: 'Off-Page SEO & Backlinks',
+    description: 'We build safe, high-quality backlinks that boost your website’s trust and authority.',
+    path: '/offpage'
   },
   {
-    title: "Video Ranking Strategy",
-    icon: <FaChartBar />,
-    items: [
-      "Search ranking strategy",
-      "Suggested video strategy",
-      "Browse feature strategy",
-      "Upload timing & frequency optimization",
-      "Algorithm-friendly metadata setup",
-      "First 30 minutes engagement plan",
-    ],
+    icon: <FaMapMarkerAlt size={40} className="mb-3 icon"/>,
+    title: 'Local SEO',
+    description: 'We help your business appear in local searches and Google Maps so nearby customers can find you easily.',
+    path: '/local'
   },
   {
-    title: "Competitor Research",
-    icon: <FaPeopleArrows  />,
-    items: [
-      "Competitor performance breakdown",
-      "Their ranking keywords",
-      "Their CTR, retention & metadata analysis",
-      "Strategy to outperform competitors",
-      "Market gap exploitation",
-      "Actionable recommendations for improvement",
-    ],
+    icon: <FaFileAlt size={40} className="mb-3 icon"/>,
+    title: 'Content Optimization',
+    description: 'Enhance existing content or create new SEO-friendly content to attract more visitors.',
+    path: 'content'
   },
-  {
-    title: "YouTube Algorithm Optimization",
-    icon: <FaPuzzlePiece  />,
-    items: [
-      "Search + Suggested algorithm alignment",
-      "Session time improvement strategy",
-      "Audience retention optimization",
-      "Watch-time growth plan",
-      "Algorithm-friendly content structure",
-      "Actionable recommendations for improvement",
-    ],
-  },
-]; 
+
+];
 
 
 
@@ -171,11 +124,10 @@ const services = [
 <div className="youtube-hero d-flex align-items-center text-center">
   <div className="container">
     <h1 className="fw-bold text-white mb-3">
-      YouTube SEO Services – Grow Your Channel Faster
+      Your website deserves to be seen — let’s grow together
     </h1>
     <p className="text-white-80 fw-bold mx-auto" style={{ maxWidth: "600px" }}>
-      Data-driven optimization for channels and videos: full audits, keyword strategy,
-      metadata fixes, thumbnail & retention improvements.
+      We guide your website to the top with simple steps, clear strategy, and genuine support
     </p>
 
     <div className="mt-4 d-flex justify-content-center gap-3">
@@ -199,16 +151,16 @@ const services = [
 
 {/* website intro  */}
 
-<div className="py-5 yourIntro">
+{/* <div className="py-5 yourIntro">
   <div className="container-fluid px-5">
     <div className="row align-items-center">
 
-      {/* Left Image */}
+      
       <div className="col-lg-6 mb-4 mb-lg-0 text-center youImg">
         <img src={YouMan} alt="Profile" className="img-fluid rounded-3 shadow" style={{ maxWidth: "70%" }}/>
       </div>
 
-      {/* Right Content */}
+      
       <div className="col-lg-6">
         <h4 className="text-secondary fw-semibold mb-2">Hello, I'm</h4>
         <h1 className="fw-bold display-4">MD. ABDUL HALIM</h1>
@@ -228,7 +180,7 @@ const services = [
 
     </div>
   </div>
-</div>
+</div> */}
 
 
 
@@ -241,10 +193,20 @@ const services = [
 
       {/* Text Content */}
       <div className="col-lg-6 mb-4 mb-lg-0" >
-        <h1 className="fw-bold">What is YouTube SEO?</h1>
-        <p className="lead">
-          YouTube SEO is the process of optimizing your videos, channel, and content so that they rank higher in YouTube search results and related videos. Since YouTube is the second largest search engine in the world (after Google), proper SEO ensures more visibility, views, and subscribers organically — without paying for ads.
-        </p>
+        <h1 className="fw-bold">What is Website SEO?</h1>
+        <div >
+          Website SEO (Search Engine Optimization) is the practice of optimizing your website to make it easily discoverable on search engines like Google. A well-optimized site ranks higher in search results, attracts more visitors, builds trust with your audience, and creates greater growth opportunities for your business.
+          <br /> <br />
+          <h6 className="fw-bold">SEO focuses on three key areas: </h6>
+          <ul>
+            <li><strong>On-Page SEO: </strong> Improving your content, keywords, titles, and structure so search engines understand your website better.</li>
+            <li><strong>Technical SEO:</strong> Making sure your site is fast, secure, and easy to browse.</li>
+            <li><strong>Off-Page SEO: </strong> Building authority through backlinks and trust signals from other sites. </li>
+          </ul>
+                
+          In short, effective SEO makes your website more visible, easier to find, and more successful online — all organically, without the need to pay for ads.
+        </div>
+
         <a
           href="https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22"
           className="btn mt-3 hero-btn"
@@ -274,22 +236,19 @@ const services = [
       </div>
 
       <div className="col-lg-7">
-        <h2 className="fw-bold mb-3">Why YouTube SEO is Important?</h2>
+        <h2 className="fw-bold mb-3">Why Website SEO Is Important?</h2>
         <p className="text-muted">
-          YouTube SEO helps your content rank higher in search & suggested results,
-          increasing organic views, engagement, and long-term channel growth without relying on paid promotions.
+          Website SEO is important because it helps your business get seen by the right people at the right time. When someone searches for a service or product you offer, SEO makes sure your website shows up higher in the results — giving you a better chance to attract real customers.
         </p>
 
         <div className="benefit-box p-4 rounded shadow-sm">
           <ul className="list-unstyled">
-            <li><span className="check-icon">✔</span> Higher search rankings on YouTube & Google</li>
-            <li><span className="check-icon">✔</span> More organic views without paid ads</li>
-            <li><span className="check-icon">✔</span> Better audience retention & watch-time</li>
-            <li><span className="check-icon">✔</span> Faster subscriber & community growth</li>
-            <li><span className="check-icon">✔</span> Higher click-through rate via optimized metadata</li>
-            <li><span className="check-icon">✔</span> Evergreen long-term ranking & traffic</li>
-            <li><span className="check-icon">✔</span> Better monetization & sponsorship deals</li>
-            <li><span className="check-icon">✔</span> Increased credibility & niche authority</li>
+            <h6 className='fw-bold'>Good SEO can:</h6>
+            <li><span className="check-icon p-2">✔</span> <strong>Increase Visibility: </strong> People find your business faster.</li>
+            <li><span className="check-icon p-2">✔</span> <strong>Build Trust:: </strong> Websites that rank higher feel more reliable to visitors.</li>
+            <li><span className="check-icon p-2">✔</span> <strong>Bring Free Traffic: </strong> You attract visitors naturally without paying for ads.</li>
+            <li><span className="check-icon p-2">✔</span> <strong>Improve User Experience: </strong>  A well-optimized site loads faster and feels smoother.</li>
+            <li><span className="check-icon p-2">✔</span> <strong>Boost Sales & Growth: </strong> More visitors = more potential customers.</li>
           </ul>
         </div>
       </div>
@@ -303,87 +262,33 @@ const services = [
 
 {/* service  */}
 
-<section className="py-5 service">
-  <div className="container-fluid px-5">
-
-    {/* Service Container */}
-    <div className="serviceCont mb-5">
-      <h1 className="mb-3">Core YouTube SEO Services</h1>
-      <p className="text-muted fs-5">
-        Our Core YouTube SEO services are designed to boost organic growth...
-      </p>
-    </div>
-
-    {/* ---- FIRST 6 BOXES (3 + 3) ---- */}
-    <div className="row g-5">
-      {services.slice(0, 6).map((service, idx) => (
-        <div key={idx} className="col-lg-4 col-md-6">
-          <div className="service-card card text-center border-0 pt-5 position-relative h-100">
-
-            <div className="icon-circle position-absolute top-0 start-50 translate-middle shadow-sm">
-              {service.icon}
-            </div>
-
-            <div className="card-body">
-              <h4 className="card-title mb-3 fw-bold">{service.title}</h4>
-
-              <ul className="list-unstyled text-start">
-                {service.items.map((item, i) => (
-                  <li key={i} className="mb-2 d-flex align-items-center">
-                    <FaCheck className="text-secondary me-2 fs-5" />
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-
-            </div>
-
-          </div>
+ <section className="py-5 service">
+      <div className="container-fluid px-5">
+        {/* Service Header */}
+        <div className="serviceCont mb-5 text-center">
+          <h1 className="mb-3">Our SEO Services</h1>
+          <p className="text-muted fs-5">
+            We offer easy, helpful SEO services to make your website more visible and user-friendly.
+          </p>
         </div>
-      ))}
-    </div>
 
-    {/* ---- LAST ROW (1 BOX + IMAGE) ---- */}
-    <div className="row g-5 mt-3">
-
-      {/* Single Box (7th item) */}
-      <div className="col-lg-4 col-md-6">
-        <div className="service-card card text-center border-0 pt-5 position-relative h-100">
-
-          <div className="icon-circle position-absolute top-0 start-50 translate-middle shadow-sm">
-            {services[6].icon}
-          </div>
-
-          <div className="card-body">
-            <h4 className="card-title mb-3 fw-bold">{services[6].title}</h4>
-
-            <ul className="list-unstyled text-start">
-              {services[6].items.map((item, i) => (
-                <li key={i} className="mb-2 d-flex align-items-center">
-                  <FaCheck className="text-secondary me-2 fs-5" />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-
-          </div>
-
+        {/* Services Row */}
+        <div className="row g-4">
+          {services.map((service, index) => (
+            <div key={index} className="col-lg-4 col-md-6">
+              <div className="card h-100 shadow-sm p-4 text-center" >
+                {service.icon}
+                <h5 className="mt-3 mb-3 fw-bold">{service.title}</h5>
+                <p className="text-muted">{service.description}</p>
+                <Link to={service.path} className="btn button mt-3">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
-
-      {/* IMAGE → 2 COLUMN SPACE */}
-      <div className="col-lg-8 col-md-6 d-flex align-items-center">
-        <img
-          src={ServiceImg}
-          alt=""
-          className="img-fluid w-100 rounded last-row-img"
-        />
-      </div>
-
-    </div>
-
-  </div>
-</section>
+    </section>
 
 
 

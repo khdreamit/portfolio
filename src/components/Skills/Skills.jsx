@@ -5,13 +5,12 @@ import {
   FaFacebookF,
   FaYoutube,
   FaShopify,
-  FaGoogle,
+  FaGlobe,
   FaAmazon,
   FaBullhorn,
-  FaTasks
+  FaTasks,
 } from "react-icons/fa";
 import Navbar from "../Navbar/Navbar";
-import Facebook from "../Facebook/Facebook";
 import { Link } from "react-router";
 import SocialIcon from "../SocialIcon/SocialIcon";
 import Footer from "../Footer/Footer";
@@ -20,22 +19,6 @@ import Footer from "../Footer/Footer";
 const skills = [
   {
     id: 1,
-    title: "Social Media Account Create",
-    desc: "Professional setup with branding, bio optimization & posting plan.",
-    icon: <FaTasks />,
-    iconClass: "bg-task",
-    path: "/facebook"
-  },
-  {
-    id: 2,
-    title: "Social Media Management",
-    desc: "Content posting, analytics tracking & community engagement.",
-    icon: <FaBullhorn />,
-    iconClass: "bg-manage",
-    path: "/socialMediaManage"
-  },
-  {
-    id: 3,
     title: "YouTube SEO & Promotion",
     desc: "Video SEO, thumbnails, ranking strategy & organic growth.",
     icon: <FaYoutube />,
@@ -43,7 +26,7 @@ const skills = [
     path: "/youtube"
   },
   {
-    id: 4,
+    id: 2,
     title: "Facebook & Instagram Ads",
     desc: "Laser-targeted campaigns built for leads & conversions.",
     icon: <FaFacebookF />,
@@ -51,29 +34,56 @@ const skills = [
     path: "/facebook"
   },
   {
-    id: 5,
-    title: "Shopify Ads",
-    desc: "Product ads, retargeting & ROI-focused campaigns.",
-    icon: <FaShopify />,
-    iconClass: "bg-shopify",
-    path: "/shopify"
-  },
-  {
-    id: 6,
-    title: "Amazon Book Promotion",
-    desc: "Amazon SEO, paid ads & review-boosting strategies.",
-    icon: <FaAmazon />,
-    iconClass: "bg-amazon",
-    path: "/google"
-  },
-  {
-    id: 7,
+    id: 3,
     title: "Google Ads",
     desc: "Search + Display ads to capture high-intent buyers.",
     icon: <FcGoogle />,
     iconClass: "bg-google",
     path: "/google"
-  }
+  },
+
+  {
+    id: 4,
+    title: "Social Media Account Create",
+    desc: "Professional setup with branding, bio optimization & posting plan.",
+    icon: <FaTasks />,
+    iconClass: "bg-task",
+    path: "/socialMediaManage"
+  },
+  {
+    id: 5,
+    title: "Social Media Management",
+    desc: "Content posting, analytics tracking & community engagement.",
+    icon: <FaBullhorn />,
+    iconClass: "bg-manage",
+    path: "/socialMediaManage"
+  },
+ 
+
+  {
+    id: 6,
+    title: "Shopify Ads",
+    desc: "Product ads, retargeting & ROI-focused campaigns.",
+    icon: <FaShopify />,
+    iconClass: "bg-shopify",
+    path: "/google"
+  },
+  {
+    id: 7,
+    title: "Amazon Book Promotion",
+    desc: "Amazon SEO, paid ads & review-boosting strategies.",
+    icon: <FaAmazon />,
+    iconClass: "bg-amazon",
+    path: "/amazon"
+  },
+  {
+    id: 8,
+    title: "Website SEO",
+    desc: "Optimize your website to grow traffic and visibility organically.",
+    icon: <FaGlobe />,
+    iconClass: "bg-website",
+    path: "/website"
+  },
 ];
 
 const Skills = () => {

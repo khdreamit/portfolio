@@ -202,16 +202,16 @@ const services = [
 
 {/* Youtuber intro  */}
 
-<div className="py-5 yourIntro">
+{/* <div className="py-5 yourIntro">
   <div className="container-fluid px-5">
     <div className="row align-items-center">
 
-      {/* Left Image */}
+      
       <div className="col-lg-6 mb-4 mb-lg-0 text-center youImg">
         <img src={YouMan} alt="Profile" className="img-fluid rounded-3 shadow" style={{ maxWidth: "70%" }}/>
       </div>
 
-      {/* Right Content */}
+      
       <div className="col-lg-6">
         <h4 className="text-secondary fw-semibold mb-2">Hello, I'm</h4>
         <h1 className="fw-bold display-4">MD. ABDUL HALIM</h1>
@@ -231,7 +231,7 @@ const services = [
 
     </div>
   </div>
-</div>
+</div> */}
 
 
 
@@ -457,15 +457,18 @@ const services = [
             <div className="plan-title">Basic</div>
 
             <h2 className="price">
-              <span className="old-price">$49</span> $29 <span>/Project</span>
+              <span className="old-price">$150</span> $99 <span>/Project</span>
             </h2>
 
             <ul className="features list-unstyled text-start mt-3">
-              <li><FaCheck /> Title Optimization</li>
-              <li><FaCheck /> Keyword Research</li>
-              <li><FaCheck /> Thumbnail Suggestion</li>
-              <li><FaTimes className="text-danger" /> Competitor Analysis</li>
-              <li><FaTimes className="text-danger" /> SEO Report</li>
+              <li><FaCheck /> Mini Channel audit</li>
+              <li><FaCheck /> Youtube channel evaluation</li>
+              <li><FaCheck /> Title & description optimized</li>
+              <li><FaCheck /> Thumbnail Optimization</li>
+              <li><FaCheck /> Meta tag optimization</li>
+              <li><FaCheck /> Captions and transcripts</li>
+              <li><FaCheck /> 5 Keyword/hashtag research</li>
+              <li><FaCheck /> Quick growth tips</li>
             </ul>
 
             <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn mt-4 btn">Order Now On WhatsApp</a>
@@ -479,15 +482,21 @@ const services = [
             <div className="plan-title featured-title">Standard</div>
 
             <h2 className="price">
-              <span className="old-price">$89</span> $59 <span>/Project</span>
+              <span className="old-price">$250</span> $199 <span>/Project</span>
             </h2>
 
             <ul className="features list-unstyled text-start mt-3">
-              <li><FaCheck /> Title + Tag Optimization</li>
-              <li><FaCheck /> Full Keyword Plan</li>
-              <li><FaCheck /> Competitor Research</li>
-              <li><FaCheck /> SEO Description</li>
-              <li><FaTimes className="text-danger" /> 24/7 Support</li>
+              <li><FaCheck /> Everything in Basic</li>
+              <li><FaCheck /> Full Channel audit</li>
+              <li><FaCheck /> Youtube channel evaluation</li>
+              <li><FaCheck /> Title & description optimizedn</li>
+              <li><FaCheck /> Thumbnail Optimization</li>
+              <li><FaCheck /> Competitor Analysis</li>
+              <li><FaCheck /> Captions and transcripts</li>
+              <li><FaCheck /> Content ideas</li>
+              <li><FaCheck /> 10 Keyword/hashtag research</li>
+              <li><FaCheck /> Ranking Strategy Plan</li>
+              <li><FaCheck /> Weekly performance report</li>
             </ul>
 
             <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn featured-btn mt-4 btn">Order Now On WhatsApp</a>
@@ -500,15 +509,19 @@ const services = [
             <div className="plan-title">Premium</div>
 
             <h2 className="price">
-              <span className="old-price">$149</span> $99 <span>/Project</span>
+              <span className="old-price">$350</span> $299 <span>/Project</span>
             </h2>
 
             <ul className="features list-unstyled text-start mt-3">
-              <li><FaCheck /> Full YouTube SEO</li>
-              <li><FaCheck /> Ranking Strategy & Audit</li>
-              <li><FaCheck /> Performance Monitoring</li>
-              <li><FaCheck /> Thumbnail A/B Testing</li>
-              <li><FaCheck /> 24/7 Priority Support</li>
+              <li><FaCheck /> Everything in Standard</li>
+              <li><FaCheck /> ull Channel Audit</li>
+              <li><FaCheck /> Advanced Analytics Setup</li>
+              <li><FaCheck /> Advanced Competitor Analysis</li>
+              <li><FaCheck /> Youtube channel Optimization</li>
+              <li><FaCheck /> 20 Keyword/hashtag research</li>
+              <li><FaCheck /> full guidance and support + Suggestion</li>
+              <li><FaCheck /> Ranking Strategy Plan</li>
+              <li><FaCheck /> Monthly growth strategy report</li>
             </ul>
 
             <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn mt-4 btn">Order Now On WhatsApp</a>

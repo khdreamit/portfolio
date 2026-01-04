@@ -198,16 +198,16 @@ const services = [
 
 {/* Youtuber intro  */}
 
-<div className="py-5 yourIntro">
+{/* <div className="py-5 yourIntro">
   <div className="container-fluid px-5">
     <div className="row align-items-center">
 
-      {/* Left Image */}
+      
       <div className="col-lg-6 mb-4 mb-lg-0 text-center youImg">
         <img src={YouMan} alt="Profile" className="img-fluid rounded-3 shadow" style={{ maxWidth: "70%" }}/>
       </div>
 
-      {/* Right Content */}
+      
       <div className="col-lg-6">
         <h4 className="text-secondary fw-semibold mb-2">Hello, I'm</h4>
         <h1 className="fw-bold display-4">MD. ABDUL HALIM</h1>
@@ -227,7 +227,7 @@ const services = [
 
     </div>
   </div>
-</div>
+</div> */}
 
 
 
