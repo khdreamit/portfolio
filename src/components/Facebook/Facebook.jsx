@@ -3,7 +3,7 @@ import Navbar from '../Navbar/Navbar';
 import SocialIcon from '../SocialIcon/SocialIcon';
 import Footer from '../Footer/Footer';
 import { FaPix  } from "react-icons/fa6";
-import YoutubeHero from '../../assets/facebook ads.jpg'
+import YoutubeHero from '../../assets/q.jpg'
 import YouSeo from '../../assets/large.jpg'
 import '../Youtube/youtube.css'
 import "aos/dist/aos.css";
