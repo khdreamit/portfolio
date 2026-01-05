@@ -102,3 +102,8 @@
   background: #8a8cfb; 
   box-shadow: 0 10px 25px rgba(99, 102, 241, 0.35);
 }
+
+.bg-tiktok{
+    background: black; 
+  box-shadow: 0 10px 25px rgba(32, 32, 33, 0.35);
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaFacebook, FaInstagramSquare, FaLinkedin, } from "react-icons/fa";
 import { FaPhoneAlt, FaEnvelope, FaWhatsappSquare, FaTelegram  } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import FooterLogo from '../../assets/FooterLogo.jpg';
 import { NavLink } from 'react-router';
 
@@ -47,6 +48,7 @@ const submenu = [
                             <a href="https://www.facebook.com/AdulHalim.net/" className="text-dark hover-color"><FaFacebook /></a>
                             <a href="https://www.instagram.com/khdreamit/" className="text-dark hover-color"><FaInstagramSquare /></a>
                             <a href="https://www.linkedin.com/in/khdreamit/" className="text-dark hover-color"><FaLinkedin /></a>
+                            <a href="https://x.com/KHDreamIt" className="text-dark hover-color"><FaXTwitter /></a>
                         </div>
                     </div>
 

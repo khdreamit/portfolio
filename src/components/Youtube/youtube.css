@@ -424,3 +424,14 @@
   }
 }
 
+
+
+
+.tiktok{
+  background: hwb(29 62% 7%);
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  
+}

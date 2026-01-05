@@ -91,7 +91,7 @@ const skills = [
     desc: "Performance-driven TikTok ads built for leads & sales.",
     icon: <FaTiktok />,
     iconClass: "bg-tiktok",
-    path: "/tiktok"
+    path: "/facebook"
   },
 ];
 

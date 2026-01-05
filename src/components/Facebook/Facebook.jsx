@@ -210,38 +210,6 @@ const items = [
 </div>
 
 
-{/* Facebooker intro  */}
-
-{/* <div className="py-5 yourIntro">
-  <div className="container-fluid px-5">
-    <div className="row align-items-center">
-
-      
-      <div className="col-lg-6 mb-4 mb-lg-0 text-center youImg">
-        <img src={YouMan} alt="Profile" className="img-fluid rounded-3 shadow" style={{ maxWidth: "70%" }}/>
-      </div>
-
-      
-      <div className="col-lg-6">
-        <h4 className="text-secondary fw-semibold mb-2">Hello, I'm</h4>
-        <h1 className="fw-bold display-4">MD. ABDUL HALIM</h1>
-        
-        <p className="mt-3 text-dark fs-5">
-            I’m a Facebook Ads Specialist helping businesses reach the right audience with data-driven strategies. I create high-converting ad campaigns, optimize performance, reduce ad costs, and scale results effectively. My goal is simple — turn clicks into real customers.
-        </p>
-
-        <div className="mt-4 d-flex gap-3">
-          <a href="https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22" 
-             className="btn btn-dark px-4 py-2">
-            Contact With Me
-          </a>
-          
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div> */}
 
 
 
@@ -437,9 +405,9 @@ const items = [
               <li><FaCheck /> Basic Audience Targeting</li>
               <li><FaCheck /> Weekly Performance Update</li>
               <li><FaCheck /> Friendly Support (WhatsApp / Email)</li>
-              <li>
-                 <h5 className="highlight"><FaCheck /> Add TikTok Ads for + $50</h5>
-              </li>
+              <h6 className='tiktok'>
+                 Add TikTok Ads for + $50
+              </h6>
               
             </ul>
 
@@ -464,9 +432,10 @@ const items = [
               <li><FaCheck /> Smart Audience Targeting</li>
               <li><FaCheck /> Pixel Setup (If Needed)</li>
               <li><FaCheck /> Weekly Optimization</li>
-              <li>
-                 <h5 className="highlight"><FaCheck /> Add TikTok Ads for + $99</h5>
-              </li>
+              <h6 className='tiktok'>
+                 Add TikTok Ads for + $99
+              </h6>
+              
             </ul>
 
             <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn featured-btn mt-4 btn">Order Now On WhatsApp</a>
@@ -489,9 +458,10 @@ const items = [
               <li><FaCheck /> Daily Optimization</li>
               <li><FaCheck /> Priority Support</li>
               <li><FaCheck /> Strategy Consultation & Planning</li>
-              <li>
-                 <h5 className="highlight"><FaCheck /> Add TikTok Ads for + $199</h5>
-              </li>
+              <h6 className='tiktok'>
+                 Add TikTok Ads for + $199
+              </h6>
+              
             </ul>
 
             <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn mt-4 btn">Order Now On WhatsApp</a>
