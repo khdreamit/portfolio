@@ -3,8 +3,8 @@ import Navbar from '../Navbar/Navbar';
 import SocialIcon from '../SocialIcon/SocialIcon';
 import Footer from '../Footer/Footer';
 import { FaPix  } from "react-icons/fa6";
-import YoutubeHero from '../../assets/youtubeHero.jpg'
-import YouSeo from '../../assets/youSeo.png'
+import YoutubeHero from '../../assets/Facebook.webp'
+import YouSeo from '../../assets/large.jpg'
 import '../Youtube/youtube.css'
 import "aos/dist/aos.css";
 import YouMan from '../../assets/youMan2.png'
@@ -72,6 +72,13 @@ const services = [
     icon: <FaPix />,
     items: [
       "I install and configure Facebook Pixel on your website to track user behavior. Pixel tracking allows you to measure ad effectiveness, monitor conversions, and optimize campaigns based on real data."
+    ],
+  },
+  {
+    title: "Tiktok Ad Strategy Development",
+    icon: <FaSearch />,
+    items: [
+      "I create a custom TikTok ad strategy tailored to your business goals, budget, and audience. Every campaign starts with a smart plan to boost views, engagement, and conversions. With the right approach, your TikTok ads reach the right people at the right time"
     ],
   },
 ]; 
@@ -249,7 +256,7 @@ const items = [
       <div className="col-lg-6 mb-4 mb-lg-0" >
         <h1 className="fw-bold">What is Facebook Ads?</h1>
         <p className="lead">
-           Facebook Ads are paid advertisements on Facebook and Instagram that allow businesses, brands, and individuals to reach their target audience effectively. With Facebook Ads, you can target people based on age, location, interests, and behavior, making your campaigns much more precise and impactful than organic posts. These ads can help you increase sales, generate leads, drive website traffic, boost brand awareness, and grow your social media following. The biggest advantage of Facebook Ads is its powerful targeting capabilities, flexible budget control, and the ability to measure results accurately. In short, it enables businesses to reach the right people at the right time, maximizing growth and ROI while optimizing ad spend.
+           Facebook Ads are paid ads on Facebook and Instagram that help businesses reach their target audience precisely. You can target users by age, location, interests, and behavior. These ads boost sales, leads, website traffic, brand awareness, and social media growth. Their main advantages are precise targeting, flexible budgeting, and accurate performance tracking, helping businesses reach the right people at the right time and maximize ROI.
         </p>
         <a
           href="https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22"
@@ -402,6 +409,98 @@ const items = [
    
             
 
+
+
+    {/* pricing plan  */}
+    <div className='bacgkround' id='seePrice'>
+    <div className="container-fluid px-5 py-5">
+      <div>
+        <h2 className="text-center fw-bold mb-2">Facebook Ads Pricing Plans</h2>
+       <p className="text-center text-muted mb-5">Choose a plan that fits your growth goal</p>
+      </div>
+
+      <div className="row g-4 justify-content-center">
+
+        {/* Basic */}
+        <div className="col-md-4">
+          <div className="pricing-box text-center p-4 position-relative" data-aos="fade-left">
+            <div className="plan-title">Basic</div>
+
+            <h2 className="price">
+              <span className="old-price">$250</span> $199 <span>/Month</span>
+            </h2>
+
+            <ul className="features list-unstyled text-start mt-3">
+              <li><FaCheck /> Facebook & Instagram Ads</li>
+              <li><FaCheck /> 1 Campaign</li>
+              <li><FaCheck /> 1–2 Ad Creatives</li>
+              <li><FaCheck /> Basic Audience Targeting</li>
+              <li><FaCheck /> Weekly Performance Update</li>
+              <li><FaCheck /> Friendly Support (WhatsApp / Email)</li>
+              <li>
+                 <h5 className="highlight"><FaCheck /> Add TikTok Ads for + $50</h5>
+              </li>
+              
+            </ul>
+
+            <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn mt-4 btn">Order Now On WhatsApp</a>
+          </div>
+        </div>
+
+        {/* Standard - Featured */}
+        <div className="col-md-4">
+          <div className="pricing-box featured text-center p-4 position-relative" data-aos="zoom-in">
+            {/* <span className="best-badge">Best Value</span> */}
+            <div className="plan-title featured-title">Standard</div>
+
+            <h2 className="price">
+              <span className="old-price">$399</span> $299 <span>/Month</span>
+            </h2>
+
+            <ul className="features list-unstyled text-start mt-3">
+              <li><FaCheck /> Everything in Basic</li>
+              <li><FaCheck /> Up to 3 Campaigns</li>
+              <li><FaCheck /> 3–5 High-Quality Creatives</li>
+              <li><FaCheck /> Smart Audience Targeting</li>
+              <li><FaCheck /> Pixel Setup (If Needed)</li>
+              <li><FaCheck /> Weekly Optimization</li>
+              <li>
+                 <h5 className="highlight"><FaCheck /> Add TikTok Ads for + $99</h5>
+              </li>
+            </ul>
+
+            <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn featured-btn mt-4 btn">Order Now On WhatsApp</a>
+          </div>
+        </div>
+
+        {/* Premium */}
+        <div className="col-md-4">
+          <div className="pricing-box text-center p-4 position-relative" data-aos="fade-right">
+            <div className="plan-title">Premium</div>
+
+            <h2 className="price">
+              <span className="old-price">$600</span> $399 <span>/Month</span>
+            </h2>
+
+            <ul className="features list-unstyled text-start mt-3">
+              <li><FaCheck /> Everything in Standard</li>
+              <li><FaCheck /> Unlimited Campaigns</li>
+              <li><FaCheck /> Advanced Targeting & Retargeting</li>
+              <li><FaCheck /> Daily Optimization</li>
+              <li><FaCheck /> Priority Support</li>
+              <li><FaCheck /> Strategy Consultation & Planning</li>
+              <li>
+                 <h5 className="highlight"><FaCheck /> Add TikTok Ads for + $199</h5>
+              </li>
+            </ul>
+
+            <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn mt-4 btn">Order Now On WhatsApp</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
 {/* FAQ  */}
 
    <section className="py-5 faq-section">
@@ -440,89 +539,6 @@ const items = [
       </div>
     </section>
 
-
-    {/* pricing plan  */}
-    <div className='bacgkround' id='seePrice'>
-    <div className="container-fluid px-5 py-5">
-      <div>
-        <h2 className="text-center fw-bold mb-2">Facebook Ads Pricing Plans</h2>
-       <p className="text-center text-muted mb-5">Choose a plan that fits your growth goal</p>
-      </div>
-
-      <div className="row g-4 justify-content-center">
-
-        {/* Basic */}
-        <div className="col-md-4">
-          <div className="pricing-box text-center p-4 position-relative" data-aos="fade-left">
-            <div className="plan-title">Basic</div>
-
-            <h2 className="price">
-              <span className="old-price">$250</span> $199 <span>/Month</span>
-            </h2>
-
-            <ul className="features list-unstyled text-start mt-3">
-              <li><FaCheck /> 1 Facebook Ads Campaign</li>
-              <li><FaCheck /> Audience Research & Targeting</li>
-              <li><FaCheck /> Ad Setup & Creative Design (1-2 Ads)</li>
-              <li><FaCheck /> Basic Performance Report</li>
-              <li><FaCheck /> Weekly Performance Summary</li>
-              <li><FaCheck /> Monthly Report & Insights</li>
-              
-            </ul>
-
-            <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn mt-4 btn">Order Now On WhatsApp</a>
-          </div>
-        </div>
-
-        {/* Standard - Featured */}
-        <div className="col-md-4">
-          <div className="pricing-box featured text-center p-4 position-relative" data-aos="zoom-in">
-            {/* <span className="best-badge">Best Value</span> */}
-            <div className="plan-title featured-title">Standard</div>
-
-            <h2 className="price">
-              <span className="old-price">$400</span> $349 <span>/Month</span>
-            </h2>
-
-            <ul className="features list-unstyled text-start mt-3">
-              <li><FaCheck /> Up to 3 Facebook Ads Campaigns</li>
-              <li><FaCheck /> Advanced Audience Targeting & Segmentation</li>
-              <li><FaCheck /> Ad Setup & Creative Design (3-5 Ads)</li>
-              <li><FaCheck /> A/B Testing & Optimization</li>
-              <li><FaCheck /> Weekly Performance Tracking & Adjustments</li>
-              <li><FaCheck /> Detailed Monthly Performance Report</li>
-              
-            </ul>
-
-            <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn featured-btn mt-4 btn">Order Now On WhatsApp</a>
-          </div>
-        </div>
-
-        {/* Premium */}
-        <div className="col-md-4">
-          <div className="pricing-box text-center p-4 position-relative" data-aos="fade-right">
-            <div className="plan-title">Premium</div>
-
-            <h2 className="price">
-              <span className="old-price">$600</span> $500 <span>/Month</span>
-            </h2>
-
-            <ul className="features list-unstyled text-start mt-3">
-              <li><FaCheck /> Unlimited Facebook Ads Campaigns</li>
-              <li><FaCheck /> Full Audience Research & Segmentation</li>
-              <li><FaCheck /> Ad Setup & Creative Design (5-10 Ads)</li>
-              <li><FaCheck /> A/B Testing, Optimization & Scaling</li>
-              <li><FaCheck /> Advanced Analytics & Performance Reporting</li>
-              <li><FaCheck /> Strategy Consultation & Planning</li>
-            </ul>
-
-            <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn mt-4 btn">Order Now On WhatsApp</a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    </div>
 
     <SocialIcon />
     <Footer />

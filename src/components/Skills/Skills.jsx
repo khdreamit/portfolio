@@ -9,6 +9,7 @@ import {
   FaAmazon,
   FaBullhorn,
   FaTasks,
+  FaTiktok,
 } from "react-icons/fa";
 import Navbar from "../Navbar/Navbar";
 import { Link } from "react-router";
@@ -83,6 +84,14 @@ const skills = [
     icon: <FaGlobe />,
     iconClass: "bg-website",
     path: "/website"
+  },
+  {
+    id: 9,
+    title: "Tiktok Ads",
+    desc: "Performance-driven TikTok ads built for leads & sales.",
+    icon: <FaTiktok />,
+    iconClass: "bg-tiktok",
+    path: "/tiktok"
   },
 ];
 

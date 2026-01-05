@@ -4,11 +4,11 @@ import SocialIcon from '../SocialIcon/SocialIcon';
 import Footer from '../Footer/Footer';
 import { FaCheck, FaTimes } from "react-icons/fa";
 import YoutubeHero from '../../assets/youtubeHero.jpg'
-import YouSeo from '../../assets/youSeo.png'
+import YouSeo from '../../assets/main.webp'
 import './youtube.css'
 import "aos/dist/aos.css";
 import YouMan from '../../assets/youMan2.png'
-import ServiceImg from '../../assets/Youtube.jpg'
+import ServiceImg from '../../assets/main.webp'
 import { FaSearch, FaHockeyPuck, FaTags, FaImage , FaChartBar , FaPeopleArrows , FaPuzzlePiece, FaCheckCircle, FaChevronDown} from "react-icons/fa";;
 
 
@@ -462,13 +462,10 @@ const services = [
 
             <ul className="features list-unstyled text-start mt-3">
               <li><FaCheck /> Mini Channel audit</li>
-              <li><FaCheck /> Youtube channel evaluation</li>
-              <li><FaCheck /> Title & description optimized</li>
-              <li><FaCheck /> Thumbnail Optimization</li>
-              <li><FaCheck /> Meta tag optimization</li>
-              <li><FaCheck /> Captions and transcripts</li>
-              <li><FaCheck /> 5 Keyword/hashtag research</li>
-              <li><FaCheck /> Quick growth tips</li>
+              <li><FaCheck /> Keyword Research</li>
+              <li><FaCheck /> Video Optimization</li>
+              <li><FaCheck /> Tags & Metadata Setup</li>
+              <li><FaCheck /> Meta tag optimization</li>              
             </ul>
 
             <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn mt-4 btn">Order Now On WhatsApp</a>
@@ -488,15 +485,9 @@ const services = [
             <ul className="features list-unstyled text-start mt-3">
               <li><FaCheck /> Everything in Basic</li>
               <li><FaCheck /> Full Channel audit</li>
-              <li><FaCheck /> Youtube channel evaluation</li>
-              <li><FaCheck /> Title & description optimizedn</li>
-              <li><FaCheck /> Thumbnail Optimization</li>
               <li><FaCheck /> Competitor Analysis</li>
-              <li><FaCheck /> Captions and transcripts</li>
-              <li><FaCheck /> Content ideas</li>
-              <li><FaCheck /> 10 Keyword/hashtag research</li>
-              <li><FaCheck /> Ranking Strategy Plan</li>
-              <li><FaCheck /> Weekly performance report</li>
+              <li><FaCheck /> Thumbnail Optimization</li>
+              <li><FaCheck /> Ranking Strategy Plan</li>              
             </ul>
 
             <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn featured-btn mt-4 btn">Order Now On WhatsApp</a>
@@ -512,16 +503,12 @@ const services = [
               <span className="old-price">$350</span> $299 <span>/Project</span>
             </h2>
 
-            <ul className="features list-unstyled text-start mt-3">
-              <li><FaCheck /> Everything in Standard</li>
-              <li><FaCheck /> ull Channel Audit</li>
+           <ul className="features list-unstyled text-start mt-3">
+              <li><FaCheck /> Everything in Standard</li>
               <li><FaCheck /> Advanced Analytics Setup</li>
-              <li><FaCheck /> Advanced Competitor Analysis</li>
+              <li><FaCheck /> Content ideas</li>
               <li><FaCheck /> Youtube channel Optimization</li>
-              <li><FaCheck /> 20 Keyword/hashtag research</li>
-              <li><FaCheck /> full guidance and support + Suggestion</li>
-              <li><FaCheck /> Ranking Strategy Plan</li>
-              <li><FaCheck /> Monthly growth strategy report</li>
+              <li><FaCheck /> Monthly growth strategy report</li>              
             </ul>
 
             <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn mt-4 btn">Order Now On WhatsApp</a>
