@@ -340,7 +340,7 @@ const items = [
       <div className="underline mx-auto"></div>
 
       <p className="wow-subtitle text-muted mt-3 fs-5">
-        Every Facebook Ads project includes a clear, data-driven performance report designed to help clients understand results and make smarter marketing decisions. My reporting focuses on transparency, insights, and measurable growth.
+        Every Facebook & Instagram Ads project includes a clear, data-driven performance report.
       </p>
     </div>
 

@@ -3,8 +3,8 @@ import Navbar from '../Navbar/Navbar';
 import SocialIcon from '../SocialIcon/SocialIcon';
 import Footer from '../Footer/Footer';
 import { FaCheck, FaTag, FaTimes } from "react-icons/fa";
-import YoutubeHero from '../../assets/youtubeHero.jpg'
-import YouSeo from '../../assets/youSeo.png'
+import YoutubeHero from '../../assets/ggg.jpg'
+import YouSeo from '../../assets/google.png'
 import '../Youtube/youtube.css'
 import "aos/dist/aos.css";
 import { FaSearch, FaChartLine, FaTags, FaPenNib,FaShoppingCart, FaImage, FaChartPie, FaClock,  FaBullseye, FaCheckCircle, FaChevronDown} from "react-icons/fa";;
@@ -121,39 +121,39 @@ const services = [
 const items = [
   {
     title: "Full Campaign Report",
-    desc: "A clean, easy-to-understand summary including campaigns created, ad groups and keywords added, targeting setup, audience strategy, bidding model used, search term and keyword performance, and what was optimized and why."
+    desc: " A clear summary of campaigns, ad groups, keywords, targeting, audience strategy, bidding, performance, and optimizations."
   },
   {
     title: "Performance Metrics Summary",
-    desc: "I will provide the final stats including impressions and clicks, CTR, CPC, conversions, cost per conversion, ROAS for e-commerce, top-performing keywords, and worst-performing keywords. This helps you understand the exact impact of your ads."
+    desc: "You’ll get final stats—impressions, clicks, CTR, CPC, conversions, cost per conversion, ROAS, top and worst-performing keywords—to see your ads’ exact impact."
   },
   {
     title: "Ad Copy & Creative Files",
-    desc: "You will receive all ad headlines and descriptions, all display banners in PNG or JPG format, any variations used for A/B testing, and video script or YouTube guidance if applicable."
+    desc: "You’ll get all ad headlines, descriptions, display banners (PNG/JPG), A/B test variations, and video/YouTube guidance if applicable."
   },
   {
     title: "Keyword Research File",
-    desc: "A complete keyword sheet including target keywords, search volume, competition level, CPC estimates, negative keyword list, and grouping structure."
+    desc: "A complete keyword sheet with target keywords, search volume, competition, CPC estimates, negative keywords, and grouping structure"
   },
   {
     title: "Tracking & Analytics Documentation",
-    desc: "You will receive proper tracking proof such as a list of all tracking events set up, GA4 event screenshots, GTM tag and trigger list, conversion tracking validation, and UTM structure guide. This ensures your data is 100% accurate."
+    desc: "You’ll receive tracking proof, including all events, GA4 screenshots, GTM tags/triggers, conversion validation, and UTM guide for 100% accurate data."
   },
   {
     title: "Account Structure Blueprint",
-    desc: "A visual or written layout of campaigns, ad groups, keywords, ad assets, and audience lists. This helps you or any future marketer easily understand the setup."
+    desc: "A visual or written layout of campaigns, ad groups, keywords, ad assets, and audiences for easy understanding and future use."
   },
   {
     title: "Optimization Summary (What Improvements Were Made)",
-    desc: "A summary of all optimization tasks including keyword cleanup, bid adjustments, budget reallocation, ad testing, quality score improvements, negative keywords added, and audience refinements."
+    desc: "A summary of all optimizations, including keyword cleanup, bid/budget adjustments, ad testing, quality score improvements, negative keywords, and audience refinements."
   },
   {
     title: "Final Recommendation Report",
-    desc: "A short strategy document explaining what to do next, budget suggestions, new opportunities, next 30-day plan, and funnel or landing page improvement ideas."
+    desc: "A short strategy document with next steps, budget tips, new opportunities, 30-day plan, and funnel or landing page improvement ideas."
   },
   {
     title: "Video Walkthrough (Optional)",
-    desc: "If needed, you will also receive a screen-recorded video of 5–10 minutes explaining campaign overview, performance breakdown, how to read data, and what to do moving forward."
+    desc: "If needed, you’ll get a 5–10 minute screen-recorded video explaining the campaign, performance, data insights, and next steps"
   },
 
 ];
@@ -277,7 +277,7 @@ const items = [
       <div className="col-lg-6 mb-4 mb-lg-0" >
         <h1 className="fw-bold">What is Google Ads?</h1>
         <p className="lead">
-           Google Ads is an online advertising platform developed by Google that allows businesses to reach potential customers at the exact moment they are searching for products or services. It works on a pay-per-click (PPC) model, meaning advertisers only pay when someone clicks on their ad. With Google Ads, businesses can create highly targeted campaigns based on keywords, location, demographics, and user behavior, ensuring maximum visibility and ROI. Whether you want to drive traffic to your website, generate leads, or boost sales, Google Ads provides a powerful and measurable way to grow your business online.
+           Google Ads is an online advertising platform by Google that helps businesses reach potential customers when they search for products or services. It works on a pay-per-click (PPC) model, so advertisers only pay when someone clicks the ad. With targeted options like keywords and location, Google Ads helps drive traffic, leads, and sales effectively.
         </p>
         <a
           href="https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22"
@@ -310,9 +310,7 @@ const items = [
       <div className="col-lg-7">
         <h2 className="fw-bold mb-3">Why Google Ads is Important?</h2>
         <p className="text-muted">
-          Google Ads is a powerful digital marketing platform that helps your business reach the right audience online. It not only drives traffic to your website but also significantly boosts sales and lead generation. With Google Ads, businesses can achieve fast and measurable results, as it displays your products or services precisely when people are actively searching for them.
-          Moreover, Google Ads allows budget control, ROI tracking, and creating customized campaigns based on market trends.
-          In short, Google Ads is an essential tool for growing your business, increasing visibility, and maximizing revenue.
+          Google Ads helps businesses reach the right audience at the right time, driving traffic, leads, and sales. It offers fast, measurable results with full budget control, ROI tracking, and highly targeted campaigns to increase visibility and revenue.
         </p>
 
         <div className="benefit-box p-4 rounded shadow-sm">
@@ -396,7 +394,7 @@ const items = [
       <div className="underline mx-auto"></div>
 
       <p className="wow-subtitle text-muted mt-3 fs-5">
-        When your Google Ads setup & optimization work is fully completed, you will receive a full package of documents, reports, and assets so you clearly understand everything that has been done and what results you are getting.      </p>
+        You’ll get a complete package of reports, documents, and assets showing all work done and results achieved.      </p>
     </div>
 
     {/* Box */}
@@ -431,50 +429,11 @@ const items = [
 </section>    
             
 
-{/* FAQ  */}
-
-   <section className="py-5 faq-section">
-      <div className="container-fluid px-5">
-
-        <h1 className="text-center mb-5 faq-title">FREQUENTLY ASKED QUESTIONS (FAQ)</h1>
-
-        <div className="row justify-content-center">
-          <div className="col-lg-10">
-
-            {faqData.map((item, i) => (
-              <div
-                key={i}
-                className="faq-item p-3 p-md-4 mb-3 rounded shadow-sm"
-                onClick={() => toggleFAQ(i)}
-              >
-                <div className="d-flex justify-content-between align-items-center">
-                  <h5 className="faq-question m-0">{item.q}</h5>
-
-                  <FaChevronDown
-                    className={`faq-icon ${openIndex === i ? "rotate" : ""}`}
-                  />
-                </div>
-
-                <div
-                  className={`faq-answer mt-3 ${openIndex === i ? "open" : ""}`}
-                >
-                  {item.a}
-                </div>
-              </div>
-            ))}
-
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-
     {/* pricing plan  */}
     <div className='bacgkround' id='seePrice'>
     <div className="container-fluid px-5 py-5">
       <div>
-        <h2 className="text-center fw-bold mb-2">YouTube SEO Pricing Plans</h2>
+        <h2 className="text-center fw-bold mb-2">Google Ads Pricing Plans</h2>
        <p className="text-center text-muted mb-5">Choose a plan that fits your growth goal</p>
       </div>
 
@@ -547,6 +506,45 @@ const items = [
       </div>
     </div>
     </div>
+
+{/* FAQ  */}
+
+   <section className="py-5 faq-section">
+      <div className="container-fluid px-5">
+
+        <h1 className="text-center mb-5 faq-title">FREQUENTLY ASKED QUESTIONS (FAQ)</h1>
+
+        <div className="row justify-content-center">
+          <div className="col-lg-10">
+
+            {faqData.map((item, i) => (
+              <div
+                key={i}
+                className="faq-item p-3 p-md-4 mb-3 rounded shadow-sm"
+                onClick={() => toggleFAQ(i)}
+              >
+                <div className="d-flex justify-content-between align-items-center">
+                  <h5 className="faq-question m-0">{item.q}</h5>
+
+                  <FaChevronDown
+                    className={`faq-icon ${openIndex === i ? "rotate" : ""}`}
+                  />
+                </div>
+
+                <div
+                  className={`faq-answer mt-3 ${openIndex === i ? "open" : ""}`}
+                >
+                  {item.a}
+                </div>
+              </div>
+            ))}
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
 
     <SocialIcon />
     <Footer />
