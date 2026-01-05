@@ -7,9 +7,8 @@ import YoutubeHero from '../../assets/youtubeHero.jpg'
 import YouSeo from '../../assets/youSeo.png'
 import '../Youtube/youtube.css'
 import "aos/dist/aos.css";
-import YouMan from '../../assets/youMan2.png'
-// import ServiceImg from '../../assets/Youtube.jpg'
-import {FaCheck, FaTimes, FaSearch, FaHockeyPuck, FaTags, FaImage , FaChartBar , FaPeopleArrows , FaPuzzlePiece, FaCheckCircle, FaChevronDown} from "react-icons/fa";;
+
+import {FaCheck, FaSearch, FaHockeyPuck, FaTags, FaImage , FaChartBar , FaPeopleArrows , FaPuzzlePiece, FaCheckCircle, FaChevronDown} from "react-icons/fa";;
 
 
 
@@ -66,6 +65,7 @@ const services = [
       "I retarget users who have already interacted with your website or social media profiles. Remarketing increases conversion rates by reminding interested users about your products or services.",
     ],
   },
+
 
   {
     title: "Facebook Pixel Setup & Tracking",
