@@ -3,7 +3,7 @@
 }
 .skill-header {
   height: 200px;
-  background:rgb(145, 129, 91);
+  background: url("../../assets/amazon\ hero.avif") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;

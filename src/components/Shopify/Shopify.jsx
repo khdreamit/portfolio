@@ -40,79 +40,80 @@ const services = [
     ],
   },
   {
-    title: " Deep Keyword Research & Competitor Analysis",
+    title: " Campaign Strategy & Funnel Planning",
     icon: <FaSearch />,
     items: [
-      "High-intent keywords",
-      "Negative keywords (to stop waste)",
-      "Competitor keyword insights",
-      "Clean keyword groups & campaign structure",
+      "Full-funnel campaign setup",
+      "Budget allocation & structuring",
+      "TOF, MOF, BOF planning",
+      "Scaling roadmap for growth",
+      "Goal-oriented strategy",
     ],
   },
   {
-    title: "Conversion-Focused Ad Copywriting",
+    title: "Creative Strategy & Ad Copywriting",
     icon: <FaPenNib />,
     items: [
-      "Engaging headlines",
-      "Clear value-driven descriptions",
-      "Multiple ad variations for A/B testing",
-      "Smart keyword placement",
+      "High-converting ad copy",
+      "Headlines, primary text & CTA",
+      "Image & video ad direction",
+      "Scroll-stopping creative angles",
+      "Engaging visuals & messaging",
     ],
   },
   {
-    title: "Professional Display Creatives",
+    title: "Google Ads for Shopify",
     icon: <FaImage />,
     items: [
-      "Modern, clean display banners",
-      "Brand-consistent visuals",
-      "YouTube ad creative direction",
-      "Mobile-first layouts",
+      "Google Shopping feed setup",
+      "Search & Display campaigns",
+      "Performance Max campaigns",
+      "Keyword & bid optimization",
+      "Trackable sales & ROI",
     ],
   },
   {
-    title: " Conversion Tracking & Analytics Setup",
+    title: " Retargeting & Remarketing Ads",
     icon: <FaChartPie />,
     items: [
-      "Google Tag Manager (GTM)",
-      "Google Analytics 4 (GA4)",
-      "Form, call, purchase tracking",
-      "Enhanced conversions",
-      "UTM tracking for clean data",
+      "Cart abandonment campaigns",
+      "Product view retargeting",
+      "Past customer targeting",
+      "Warm audience conversion",
+      "Increased ROAS",
     ],
   },
   {
-    title: "Daily & Weekly Optimization",
+    title: "Scaling & Budget Optimization",
     icon: <FaClock />,
     items: [
-      "Smart bid adjustments",
-      "Keyword cleanup",
-      "Quality score improvement",
-      "Device & location targeting",
-      "Ad copy & creative A/B testing",
-      "Budget shifting to best performers",
+      "Horizontal & vertical scaling",
+      "Budget allocation & control",
+      "Reduce wasted ad spend",
+      "Scale winning campaigns safely",
+      "Predictable growth",
     ],
   },
   {
-    title: "Remarketing & Smart Audience Targeting",
+    title: "Reporting, Analytics & Optimization",
     icon: <FaBullseye />,
     items: [
-      "Website visitor remarketing",
-      "Add-to-cart retargeting",
-      "YouTube viewer retargeting",
-      "Custom audience targeting",
-      "In-market & affinity audiences",
+      "Weekly & monthly reports",
+      "KPI tracking (ROAS, CPA, AOV)",
+      "Performance analysis",
+      "Data-driven improvement",
+      "Continuous growth insights",
     ],
   },
   {
-    title: " E-Commerce Google Ads (Specialized)",
+    title: " Facebook & Instagram Ads Management",
     icon: <FaShoppingCart />,
     items: [
-      "Merchant Center setup",
-      "Product feed optimization",
-      "Shopping Ads",
-      "Performance Max for e-commerce",
-      "Product-level bid cont",
-      "ROAS-focused scaling",
+      "Campaign launch & monitoring",
+      "Daily optimization & tweaks",
+      "A/B testing ads & audiences",
+      "Placement optimization",
+      "Cost & ROAS improvement",
     ],
   },
 ]; 
@@ -121,40 +122,44 @@ const services = [
 
 const items = [
   {
-    title: "Full Campaign Report",
-    desc: "A clean, easy-to-understand summary including campaigns created, ad groups and keywords added, targeting setup, audience strategy, bidding model used, search term and keyword performance, and what was optimized and why."
+    title: "Ad Performance Report",
+    desc: "clicks, conversions, ROAS & overall ad results."
   },
   {
-    title: "Performance Metrics Summary",
-    desc: "I will provide the final stats including impressions and clicks, CTR, CPC, conversions, cost per conversion, ROAS for e-commerce, top-performing keywords, and worst-performing keywords. This helps you understand the exact impact of your ads."
+    title: "Sales & Revenue Report",
+    desc: "total sales and revenue generated from ads"
   },
   {
-    title: "Ad Copy & Creative Files",
-    desc: "You will receive all ad headlines and descriptions, all display banners in PNG or JPG format, any variations used for A/B testing, and video script or YouTube guidance if applicable."
+    title: "Audience Performance Report",
+    desc: "which audiences convert best"
   },
   {
-    title: "Keyword Research File",
-    desc: "A complete keyword sheet including target keywords, search volume, competition level, CPC estimates, negative keyword list, and grouping structure."
+    title: "Creative Performance Report",
+    desc: "top-performing ads and creatives"
   },
   {
-    title: "Tracking & Analytics Documentation",
-    desc: "You will receive proper tracking proof such as a list of all tracking events set up, GA4 event screenshots, GTM tag and trigger list, conversion tracking validation, and UTM structure guide. This ensures your data is 100% accurate."
+    title: "Funnel Performance Report",
+    desc: "customer journey and drop-off analysis"
   },
   {
-    title: "Account Structure Blueprint",
-    desc: "A visual or written layout of campaigns, ad groups, keywords, ad assets, and audience lists. This helps you or any future marketer easily understand the setup."
+    title: "Budget & Spend Report",
+    desc: "ad spend breakdown and efficiency"
   },
   {
-    title: "Optimization Summary (What Improvements Were Made)",
-    desc: "A summary of all optimization tasks including keyword cleanup, bid adjustments, budget reallocation, ad testing, quality score improvements, negative keywords added, and audience refinements."
+    title: "Retargeting Report",
+    desc: "recovered sales from warm audiences"
   },
   {
-    title: "Final Recommendation Report",
-    desc: "A short strategy document explaining what to do next, budget suggestions, new opportunities, next 30-day plan, and funnel or landing page improvement ideas."
+    title: "Weekly Optimization Report",
+    desc: "improvements and tests done weekly."
   },
   {
-    title: "Video Walkthrough (Optional)",
-    desc: "If needed, you will also receive a screen-recorded video of 5–10 minutes explaining campaign overview, performance breakdown, how to read data, and what to do moving forward."
+    title: "Monthly Growth Summary",
+    desc: "overall progress and growth insights"
+  },
+  {
+    title: "Custom Insights Report",
+    desc: "clear recommendations for scaling"
   },
 
 ];
@@ -368,7 +373,7 @@ Without ads, most Shopify stores struggle to get customers. Ads allow your produ
       <div className="underline mx-auto"></div>
 
       <p className="wow-subtitle text-muted mt-3 fs-5">
-        When your Google Ads setup & optimization work is fully completed, you will receive a full package of documents, reports, and assets so you clearly understand everything that has been done and what results you are getting.      </p>
+        Everything You Need to Run Profitable Shopify Ads.      </p>
     </div>
 
     {/* Box */}
@@ -403,50 +408,11 @@ Without ads, most Shopify stores struggle to get customers. Ads allow your produ
 </section>    
             
 
-{/* FAQ  */}
-
-   <section className="py-5 faq-section">
-      <div className="container-fluid px-5">
-
-        <h1 className="text-center mb-5 faq-title">FREQUENTLY ASKED QUESTIONS (FAQ)</h1>
-
-        <div className="row justify-content-center">
-          <div className="col-lg-10">
-
-            {faqData.map((item, i) => (
-              <div
-                key={i}
-                className="faq-item p-3 p-md-4 mb-3 rounded shadow-sm"
-                onClick={() => toggleFAQ(i)}
-              >
-                <div className="d-flex justify-content-between align-items-center">
-                  <h5 className="faq-question m-0">{item.q}</h5>
-
-                  <FaChevronDown
-                    className={`faq-icon ${openIndex === i ? "rotate" : ""}`}
-                  />
-                </div>
-
-                <div
-                  className={`faq-answer mt-3 ${openIndex === i ? "open" : ""}`}
-                >
-                  {item.a}
-                </div>
-              </div>
-            ))}
-
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-
     {/* pricing plan  */}
     <div className='bacgkround' id='seePrice'>
     <div className="container-fluid px-5 py-5">
       <div>
-        <h2 className="text-center fw-bold mb-2">YouTube SEO Pricing Plans</h2>
+        <h2 className="text-center fw-bold mb-2"> Pricing Plans</h2>
        <p className="text-center text-muted mb-5">Choose a plan that fits your growth goal</p>
       </div>
 
@@ -498,11 +464,12 @@ Without ads, most Shopify stores struggle to get customers. Ads allow your produ
         {/* Premium */}
         <div className="col-md-4">
           <div className="pricing-box text-center p-4 position-relative" data-aos="fade-right">
-            <div className="plan-title">Premium</div>
+            <div className="plan-title">Custom Plan</div>
 
-            <h2 className="price">
-              <span className="old-price">$149</span> $99 <span>/Project</span>
-            </h2>
+            <div className='d-flex justify-content-center gap-2'>
+              <h4 className='fw-bold'>Price:</h4>
+              <p className='pt-1 fw-bold'>Custom</p>
+            </div>
 
             <ul className="features list-unstyled text-start mt-3">
               <li><FaCheck /> Full YouTube SEO</li>
@@ -519,6 +486,44 @@ Without ads, most Shopify stores struggle to get customers. Ads allow your produ
       </div>
     </div>
     </div>
+
+    {/* FAQ  */}
+
+   <section className="py-5 faq-section">
+      <div className="container-fluid px-5">
+
+        <h1 className="text-center mb-5 faq-title">FREQUENTLY ASKED QUESTIONS (FAQ)</h1>
+
+        <div className="row justify-content-center">
+          <div className="col-lg-10">
+
+            {faqData.map((item, i) => (
+              <div
+                key={i}
+                className="faq-item p-3 p-md-4 mb-3 rounded shadow-sm"
+                onClick={() => toggleFAQ(i)}
+              >
+                <div className="d-flex justify-content-between align-items-center">
+                  <h5 className="faq-question m-0">{item.q}</h5>
+
+                  <FaChevronDown
+                    className={`faq-icon ${openIndex === i ? "rotate" : ""}`}
+                  />
+                </div>
+
+                <div
+                  className={`faq-answer mt-3 ${openIndex === i ? "open" : ""}`}
+                >
+                  {item.a}
+                </div>
+              </div>
+            ))}
+
+          </div>
+        </div>
+
+      </div>
+    </section>
 
     <SocialIcon />
     <Footer />
