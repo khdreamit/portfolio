@@ -79,7 +79,15 @@ body {
 .port-bg{
   background-color: dimgrey;
 }
-
+.portfolio-header {
+  height: 200px;
+  background: url("./assets/facebook\ ads\ hero.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden; 
+}
 
 /* portfolio button  */
 

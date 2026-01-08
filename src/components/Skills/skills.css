@@ -1,7 +1,15 @@
 .skills{
     background-color: #e6cfa3;
 }
-
+.skill-header {
+  height: 200px;
+  background:rgb(145, 129, 91);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden; 
+}
 
 .skills-section {
   /* background: linear-gradient(180deg, #ffffff 0%, #fbfbff 100%); */

@@ -1,7 +1,7 @@
 /* Hero aria  */
 .youtube-hero {
   background: url('../../assets/youBG.jpg') no-repeat center center/cover;
-  min-height: 75vh;
+  min-height: 50vh;
   position: relative;
 }
 
@@ -435,3 +435,29 @@
   font-weight: bold;
   
 }
+
+/* shopify hero background */
+
+.shopify-hero{
+background: url('../../assets/shopify.jpg') no-repeat center center/cover;
+min-height:50vh;
+position: relative;
+}
+/* google hero background */
+
+.google-hero{
+background: url('../../assets/google ads hero.jpg') no-repeat center center/cover;
+min-height:50vh;
+position: relative;
+}
+
+/* facebook hero background */
+
+.facebook-hero{
+background: url('../../assets/facebook ads hero.jpg') no-repeat center center/cover;
+min-height:50vh;
+position: relative;
+}
+
+
+

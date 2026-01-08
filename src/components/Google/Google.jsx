@@ -205,7 +205,7 @@ const items = [
 
         {/* Google hero  */}
 
-<div className="youtube-hero d-flex align-items-center text-center">
+<div className="google-hero d-flex align-items-center text-center">
   <div className="container">
     <h1 className="fw-bold text-white mb-3">
       Grow Your Business with Expert Google Ads Management

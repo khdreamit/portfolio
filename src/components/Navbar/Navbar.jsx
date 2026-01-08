@@ -25,10 +25,10 @@ const Navbar = () => {
         {
             label: "Service",
             submenu: [
-                { path: "/youtube", label: "YouTube SEO" },
                 { path: "/facebook", label: "Facebook Ads" },
                 { path: "/google", label: "Google Ads" },
                 { path: "/shopify", label: "Shopify Ads" },
+                { path: "/youtube", label: "YouTube SEO" },
                 { path: "/website", label: "Website SEO" },
                 { path: "/amazon", label: "Amazon Book Promotion" },
                 { path: "/socialMediaManage", label: "Social Media Management" },

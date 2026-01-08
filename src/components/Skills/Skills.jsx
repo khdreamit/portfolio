@@ -45,7 +45,7 @@ const skills = [
 
   {
     id: 4,
-    title: "Social Media Account Create",
+    title: "Social Media marketing",
     desc: "Professional setup with branding, bio optimization & posting plan.",
     icon: <FaTasks />,
     iconClass: "bg-task",
@@ -100,7 +100,7 @@ const Skills = () => {
 <div>
     <Navbar />
 
-      <div className="review-header">
+      <div className="skill-header">
         <h1 className="text-white fw-bold ls">MY SKILLS</h1>
       </div>
 

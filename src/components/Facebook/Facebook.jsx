@@ -183,7 +183,7 @@ const items = [
 
         {/* facebook hero  */}
 
-<div className="youtube-hero d-flex align-items-center text-center">
+<div className="facebook-hero d-flex align-items-center text-center">
   <div className="container">
     <h1 className="fw-bold text-white mb-3">
       Facebook Ads service - Grow Your Business
@@ -287,7 +287,7 @@ const items = [
 
     {/* Service Container */}
     <div className="serviceCont mb-5">
-      <h1 className="mb-3">Professional Facebook Ads Services to Grow Your Business</h1>
+      <h1 className="mb-3">Facebook Ads Services to Grow Your Business</h1>
       <p className="text-muted fs-5">
         From strategy and targeting to creative design and conversion optimization, I help businesses reach the right audience, generate leads, and maximize ROI with high-performing Facebook ad campaigns
       </p>

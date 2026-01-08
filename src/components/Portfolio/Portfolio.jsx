@@ -475,9 +475,10 @@ const Portfolio = () => {
 
 
   return (
+    
     <div>
       <Navbar />
-      <div className="review-header">
+      <div className="portfolio-header">
         <h1 className="text-white fw-bold ls">PORTFOLIO</h1>
       </div>
 

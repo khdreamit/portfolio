@@ -3,11 +3,12 @@ import Navbar from '../Navbar/Navbar';
 import SocialIcon from '../SocialIcon/SocialIcon';
 import Footer from '../Footer/Footer';
 import { FaCheck, FaTag, FaTimes } from "react-icons/fa";
-import YoutubeHero from '../../assets/youtubeHero.jpg'
-import YouSeo from '../../assets/youSeo.png'
+import YoutubeHero from '../../assets/s.jpg'
+import YouSeo from '../../assets/r.jpg'
 import '../Youtube/youtube.css'
 import "aos/dist/aos.css";
-import { FaSearch, FaChartLine, FaTags, FaPenNib,FaShoppingCart, FaImage, FaChartPie, FaClock,  FaBullseye, FaCheckCircle, FaChevronDown} from "react-icons/fa";;
+import { PiMegaphoneDuotone } from "react-icons/pi";
+import { FaSearch, FaChartLine, FaPenNib,FaShoppingCart, FaImage, FaChartPie, FaClock,  FaBullseye, FaCheckCircle, FaChevronDown} from "react-icons/fa";;
 
 
 
@@ -16,26 +17,26 @@ const Shopify = () => {
 
 const services = [
   {
-    title: "Google Ads Account Setup & Smart Audit",
-    icon: <FaTags />,
+    title: "Ad Account Setup & Tracking",
+    icon: <PiMegaphoneDuotone />,
     items: [
-      "Professional Google Ads account setup",
-      "Billing & payment configuration",
-      "Goal & conversion setup",
-      "Complete account audit (if you already have one)",
-      "Clear 30-day action roadmap",
+      "Facebook & Google Ads account setup",
+      "Pixel & Conversion tracking",
+      "Google Analytics integration",
+      "Event tracking for conversions",
+      "Data-driven optimization ready",
     ],
   },
   {
-    title: "High-Performance Campaign Creation",
+    title: "Audience Research & Targeting",
     icon: <FaChartLine  />,
     items: [
-      "Search Ads (high-intent customers)",
-      "Display Ads (awareness + reach)",
-      "YouTube Ads (fast visibility)",
-      "Performance Max (AI-driven multi-channel growth)",
-      "Local Service Ads",
-      "Shopping Ads (for e-commerce stores)",
+      "Buyer persona identification",
+      "Interest & behavior targeting",
+      "Competitor audience analysis",
+      "Custom & Lookalike audience creation",
+      "Target people ready to buy",
+      
     ],
   },
   {
@@ -205,13 +206,13 @@ const items = [
 
         {/* Google hero  */}
 
-<div className="youtube-hero d-flex align-items-center text-center">
+<div className="shopify-hero d-flex align-items-center text-center">
   <div className="container">
     <h1 className="fw-bold text-white mb-3">
-      Grow Your Business with Expert Google Ads Management
+      Shopify Ads Expert Helping Brands Generate Consistent Sales
     </h1>
     <p className="text-white-80 fw-bold mx-auto" style={{ maxWidth: "600px" }}>
-      Drive targeted traffic, increase conversions, and maximize your ROI with tailored Google Ads campaigns designed for your business.
+      Performance-focused Facebook & Google Ads for serious Shopify brands
     </p>
 
     <div className="mt-4 d-flex justify-content-center gap-3">
@@ -244,9 +245,11 @@ const items = [
 
       {/* Text Content */}
       <div className="col-lg-6 mb-4 mb-lg-0" >
-        <h1 className="fw-bold">What is Google Ads?</h1>
+        <h1 className="fw-bold">What is shopify Ads?</h1>
         <p className="lead">
-           Google Ads is an online advertising platform developed by Google that allows businesses to reach potential customers at the exact moment they are searching for products or services. It works on a pay-per-click (PPC) model, meaning advertisers only pay when someone clicks on their ad. With Google Ads, businesses can create highly targeted campaigns based on keywords, location, demographics, and user behavior, ensuring maximum visibility and ROI. Whether you want to drive traffic to your website, generate leads, or boost sales, Google Ads provides a powerful and measurable way to grow your business online.
+           Shopify Ads means running paid ads (like Facebook, Instagram, or Google Ads) to bring targeted customers to your Shopify store and turn them into sales.
+
+            Instead of waiting for people to find your store, Shopify Ads helps your products reach the right audience who are already interested in buying.
         </p>
         <a
           href="https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22"
@@ -277,23 +280,23 @@ const items = [
       </div>
 
       <div className="col-lg-7">
-        <h2 className="fw-bold mb-3">Why Google Ads is Important?</h2>
+        <h2 className="fw-bold mb-3">Why Are Shopify Ads Important?</h2>
         <p className="text-muted">
-          Google Ads is a powerful digital marketing platform that helps your business reach the right audience online. It not only drives traffic to your website but also significantly boosts sales and lead generation. With Google Ads, businesses can achieve fast and measurable results, as it displays your products or services precisely when people are actively searching for them.
-          Moreover, Google Ads allows budget control, ROI tracking, and creating customized campaigns based on market trends.
-          In short, Google Ads is an essential tool for growing your business, increasing visibility, and maximizing revenue.
+          Shopify Ads are important because they help Shopify store owners get traffic, sales, and growth faster.
+
+Without ads, most Shopify stores struggle to get customers. Ads allow your products to reach the right people on platforms like Facebook, Instagram, and Google — exactly where buyers spend their time.
         </p>
 
         <div className="benefit-box p-4 rounded shadow-sm">
           <ul className="list-unstyled">
-            <li><span className="check-icon">✔</span> Higher search rankings on YouTube & Google</li>
-            <li><span className="check-icon">✔</span> More organic views without paid ads</li>
-            <li><span className="check-icon">✔</span> Better audience retention & watch-time</li>
-            <li><span className="check-icon">✔</span> Faster subscriber & community growth</li>
-            <li><span className="check-icon">✔</span> Higher click-through rate via optimized metadata</li>
-            <li><span className="check-icon">✔</span> Evergreen long-term ranking & traffic</li>
-            <li><span className="check-icon">✔</span> Better monetization & sponsorship deals</li>
-            <li><span className="check-icon">✔</span> Increased credibility & niche authority</li>
+            <li><span className="check-icon">✔</span> Instant traffic & visibility for your Shopify store</li>
+            <li><span className="check-icon">✔</span> Targeted customers who are ready to buy</li>
+            <li><span className="check-icon">✔</span> Faster sales without waiting for organic growth</li>
+            <li><span className="check-icon">✔</span> Full control over ad budget & scaling</li>
+            <li><span className="check-icon">✔</span> Higher conversion rate with data-driven ads</li>
+            <li><span className="check-icon">✔</span> Retargeting to bring back lost visitors</li>
+            <li><span className="check-icon">✔</span> Scalable growth & predictable revenue</li>
+            <li><span className="check-icon">✔</span> Better ROI with optimized ad campaigns</li>
           </ul>
         </div>
       </div>

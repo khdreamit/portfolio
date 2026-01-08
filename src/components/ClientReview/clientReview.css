@@ -49,16 +49,7 @@
   display: block;
 }
 
-/* যদি তুমি চাও 'cover' ব্যবহার করে কম কাটা দেখাতে (অল্টারনেটিভ) */
-/* ব্যবহার করতে হলে উপরের .review-box img অংশের object-fit: contain; কমেন্ট করে নিচেরটি আনকমেন্ট করো */
-/*
-.review-box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;        <-- cover হলে কিছু অংশ কাটা যাবে কিন্তু পুরো বাক্স ভরবে
-  object-position: center;  <-- ছবির কেন্দ্র ধরে রাখবে (চেহারা বা বিষয় রাখার চেষ্টা করবে)
-}
-*/
+
 
 /* Dark Layer on Hover */
 .review-box::after {
