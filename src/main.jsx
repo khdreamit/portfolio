@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 import App from './App.jsx'
-import { HashRouter, Route, Routes } from 'react-router';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from '../src/components/About/About.jsx'
 import Portfolio from './components/Portfolio/Portfolio.jsx';
 import Youtube from './components/Youtube/Youtube.jsx';
@@ -27,7 +27,7 @@ import Shopify from './components/Shopify/Shopify.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HashRouter>
+    <BrowserRouter>
     <Routes>
       <Route path='/' element= {<App />} />
       <Route path='/portfolio' element= {<Portfolio />} />
@@ -55,7 +55,7 @@ createRoot(document.getElementById('root')).render(
       
                
     </Routes>
-    </HashRouter>
+    </BrowserRouter>
     
   </StrictMode>,
 )
