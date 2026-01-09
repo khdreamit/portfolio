@@ -13,7 +13,7 @@ const About = () => {
             <Navbar />
 
             {/* Abut Hero  */}
-            <div className="youtube-hero d-flex align-items-center text-center">
+            <div className="about-hero d-flex align-items-center text-center">
                 <div className="container">
                     <h1 className="fw-bold text-white mb-3 ">
                     I Help Brands Grow Faster with Data-Driven Digital Marketing.

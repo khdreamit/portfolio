@@ -4,6 +4,7 @@ import SocialIcon from "../SocialIcon/SocialIcon";
 import Footer from "../Footer/Footer";
 import "../../App.css";
 import { FaEye  } from "react-icons/fa";
+import { useLocation } from "react-router-dom";
 
 
 
@@ -429,15 +430,27 @@ const Portfolio = () => {
 
   const [filteredItems, setFilteredItems] = useState([]);
   const [activeBtn, setActiveBtn] = useState("All");
+  const location = useLocation();
+
 
   // New states
   const [showModal, setShowModal] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
+  if (location.state?.category) {
+    const category = location.state.category;
+    setActiveBtn(category);
+    const filtered = portfolioItems.filter(
+      (item) => item.category === category
+    );
+    setFilteredItems(filtered);
+  } else {
     const shuffled = [...portfolioItems].sort(() => 0.5 - Math.random());
     setFilteredItems(shuffled.slice(0, 9));
-  }, []);
+  }
+}, [location.state]);
+
 
   const handleFilter = (category) => {
     setActiveBtn(category);

@@ -7,6 +7,7 @@ import YoutubeHero from '../../assets/s.jpg'
 import YouSeo from '../../assets/r.jpg'
 import '../Youtube/youtube.css'
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 import { PiMegaphoneDuotone } from "react-icons/pi";
 import { FaSearch, FaChartLine, FaPenNib,FaShoppingCart, FaImage, FaChartPie, FaClock,  FaBullseye, FaCheckCircle, FaChevronDown} from "react-icons/fa";;
 
@@ -168,24 +169,24 @@ const items = [
 
   const faqData = [
     {
-      q: "When will I start seeing results from Google Ads?",
-      a: "Most clients notice early results within 3–7 days after the ads go live. For fully optimized performance, it usually takes 2–4 weeks as the system learns and improves."
+      q: "How long does it take to see results from Shopify Ads?",
+      a: "Most stores start seeing traffic and initial sales within 7–14 days, while stable and scalable results usually take 30–60 days of optimization."
     },
     {
-      q: "Do you handle the ad budget for me?",
-      a: "The ad budget is paid directly to Google from your own account. I only charge a service/management fee — giving you full transparency and control at all times."
+      q: "Is ad spend included in your pricing?",
+      a: "No. Ad spend is separate and paid directly to Facebook or Google. My fee covers strategy, setup, management, and optimization."
     },
     {
-      q: "Will I have access to my Google Ads account?",
-      a: "Absolutely, yes. You will always have 100% access and ownership of your account. I believe in complete transparency."
+      q: "Which platforms do you advertise on?",
+      a: "I run Facebook, Instagram, Tiktok and Google Ads, depending on your product, budget, and business goals."
     },
     {
-      q: "Can you work with my existing Google Ads account?",
-      a: "Of course! I can optimize what you already have or rebuild your campaigns from scratch — whichever brings you better performance."
+      q: "Do you guarantee sales or ROAS?",
+      a: "I don’t promise fake guarantees, but I focus on data-driven strategies to maximize conversions, ROAS, and long-term growth."
     },
     {
-      q: "Do you guarantee results?",
-      a: "No marketer can promise guaranteed results — but I guarantee: Smart strategy, Honest work, Data-driven decisions, Continuous optimization, Steady performance improvement"
+      q: "What do you need from me to get started?",
+      a: "Access to your Shopify store, ad accounts, and basic product information — I handle everything else."
     }
   ];
 
@@ -221,9 +222,13 @@ const items = [
     </p>
 
     <div className="mt-4 d-flex justify-content-center gap-3">
-      <a href="https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22" className="btn btn-warning fw-semibold px-4 py-2 rounded-pill shadow">
-        Get a Free Channel Audit
-      </a>
+      <Link
+  to="/portfolio"
+  state={{ category: "Google Ads" }}
+  className="btn btn-warning fw-semibold px-4 py-2 rounded-pill shadow"
+>
+  View My Portfolio
+</Link>
       <a href="#" onClick={(e) => {
        e.preventDefault();
         scrollToSection('seePrice');
@@ -320,7 +325,7 @@ Without ads, most Shopify stores struggle to get customers. Ads allow your produ
 
     {/* Service Container */}
     <div className="serviceCont mb-5">
-      <h1 className="mb-3">Google Ads Services</h1>
+      <h1 className="mb-3">My Services</h1>
       <p className="text-muted fs-5">
         Smart Strategy. Clean Execution. Real, Measurable Growth.
       </p>
@@ -424,15 +429,15 @@ Without ads, most Shopify stores struggle to get customers. Ads allow your produ
             <div className="plan-title">Basic</div>
 
             <h2 className="price">
-              <span className="old-price">$49</span> $29 <span>/Project</span>
+              <span className="old-price">$300</span> $199 <span>/Month</span>
             </h2>
 
             <ul className="features list-unstyled text-start mt-3">
-              <li><FaCheck /> Title Optimization</li>
-              <li><FaCheck /> Keyword Research</li>
-              <li><FaCheck /> Thumbnail Suggestion</li>
-              <li><FaTimes className="text-danger" /> Competitor Analysis</li>
-              <li><FaTimes className="text-danger" /> SEO Report</li>
+              <li><FaCheck /> Complete ad account & tracking setup</li>
+              <li><FaCheck /> 1 platform (Facebook or Google Ads)</li>
+              <li><FaCheck /> Ad campaigns + basic funnel</li>
+              <li><FaCheck /> Initial audience & creative testing</li>
+              <li><FaCheck /> Weekly performance report</li>
             </ul>
 
             <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn mt-4 btn">Order Now On WhatsApp</a>
@@ -446,15 +451,16 @@ Without ads, most Shopify stores struggle to get customers. Ads allow your produ
             <div className="plan-title featured-title">Standard</div>
 
             <h2 className="price">
-              <span className="old-price">$89</span> $59 <span>/Project</span>
+              <span className="old-price">$400</span> $299 <span>/Month</span>
             </h2>
 
             <ul className="features list-unstyled text-start mt-3">
-              <li><FaCheck /> Title + Tag Optimization</li>
-              <li><FaCheck /> Full Keyword Plan</li>
-              <li><FaCheck /> Competitor Research</li>
-              <li><FaCheck /> SEO Description</li>
-              <li><FaTimes className="text-danger" /> 24/7 Support</li>
+              <li><FaCheck /> Everything in Basic</li>
+              <li><FaCheck /> Facebook + Google Ads management</li>
+              <li><FaCheck /> Full-funnel strategy (TOF–MOF–BOF)</li>
+              <li><FaCheck /> Advanced audience & creative testing</li>
+              <li><FaCheck /> Retargeting & ROAS optimization</li>
+              <li><FaCheck /> Weekly + detailed monthly reports</li>
             </ul>
 
             <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn featured-btn mt-4 btn">Order Now On WhatsApp</a>
@@ -466,20 +472,21 @@ Without ads, most Shopify stores struggle to get customers. Ads allow your produ
           <div className="pricing-box text-center p-4 position-relative" data-aos="fade-right">
             <div className="plan-title">Custom Plan</div>
 
-            <div className='d-flex justify-content-center gap-2'>
+            <div className='d-flex justify-content-center gap-2 pt-4'>
               <h4 className='fw-bold'>Price:</h4>
               <p className='pt-1 fw-bold'>Custom</p>
             </div>
 
             <ul className="features list-unstyled text-start mt-3">
-              <li><FaCheck /> Full YouTube SEO</li>
-              <li><FaCheck /> Ranking Strategy & Audit</li>
-              <li><FaCheck /> Performance Monitoring</li>
-              <li><FaCheck /> Thumbnail A/B Testing</li>
-              <li><FaCheck /> 24/7 Priority Support</li>
+              <li><FaCheck /> Choose any platform </li>
+              <li><FaCheck /> Fully custom ad strategy & funnel</li>
+              <li><FaCheck /> Unlimited campaigns & testing</li>
+              <li><FaCheck /> Dedicated ads manager</li>
+              <li><FaCheck /> Weekly growth & scaling calls</li>
+              <li><FaCheck /> Custom reporting & insights</li>
             </ul>
 
-            <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn mt-4 btn">Order Now On WhatsApp</a>
+            <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn mt-4 btn">Get a Custom Plan</a>
           </div>
         </div>
 

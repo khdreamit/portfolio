@@ -171,7 +171,7 @@ const services = [
 
         {/* youtube hero  */}
 
-<div className="youtube-hero d-flex align-items-center text-center">
+<div className="SMM-hero d-flex align-items-center text-center">
   <div className="container">
     <h1 className="fw-bold text-white mb-3">
       YouTube SEO Services – Grow Your Channel Faster
