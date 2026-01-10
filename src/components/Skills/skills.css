@@ -3,13 +3,49 @@
 }
 .skill-header {
   height: 200px;
-  background: url("../../assets/amazon\ hero.avif") center/cover no-repeat;
+  background: url("../../assets/amazon hero.avif") center/cover no-repeat;
   display: flex;
+  flex-direction: column;   /* breadcrumb উপরে ঠিক show করার জন্য */
   align-items: center;
   justify-content: center;
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
 }
+
+/* dark overlay */
+.skill-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.skill-header h1,
+.skill-header .breadcrumb {
+  position: relative;
+  z-index: 1;
+}
+
+/* breadcrumb styling */
+.breadcrumb {
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+.breadcrumb-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.breadcrumb-separator {
+  color: #fff;
+  margin: 0 5px;
+}
+
+.breadcrumb-current {
+  color: #ccc;
+}
+
 
 .skills-section {
   /* background: linear-gradient(180deg, #ffffff 0%, #fbfbff 100%); */

@@ -27,9 +27,16 @@ const ClientMeeting = () => {
             <Navbar />
 
      {/* ---------- Top Banner Section ---------- */}
-      <div className="review-header">
-        <h1 className="text-white fw-bold ls">Client Meeting</h1>
-      </div>
+<div className="review-header">
+  <h1 className="text-white fw-bold ls">Client Meeting</h1>
+
+  <div className="breadcrumb">
+    <a href="/" className="breadcrumb-link">Home</a>
+    <span className="breadcrumb-separator">&lt;</span>
+    <span className="breadcrumb-current">Client Meeting</span>
+  </div>
+</div>
+
 
       {/* ---------- Image Grid Section ---------- */}
       <div className="container-fluid px-5 py-5">

@@ -60,41 +60,61 @@ const services = [
 
    const items = [
   {
-    title: "Channel Audit Report",
-    desc: "A complete SEO audit identifying channel-level issues, optimization gaps, and a clear growth roadmap."
+    title: "Complete Website SEO Audit Report",
+    desc: "A full review of technical, on-page, and off-page SEO issues with a prioritized fix plan."
   },
   {
-    title: "Video SEO Optimization",
-    desc: "Optimized titles, descriptions, tags, and metadata to improve discoverability and rankings."
+    title: "Keyword Research & Mapping Report",
+    desc: "Research and mapping of high-value keywords to the most relevant website pages."
   },
   {
-    title: "Keyword Research File",
-    desc: "In-depth research covering long-tail, short-tail, and low-competition keywords for targeted growth."
-  },
-  {
-    title: "CTR Optimization Guide",
-    desc: "Actionable thumbnail suggestions and a structured A/B testing plan to improve click-through rates."
+    title: "Link Building Strategy Report",
+    desc: "A strategic plan for acquiring high-quality backlinks through ethical methods."
   },
   {
     title: "Competitor Analysis Report",
-    desc: "Insights into top-performing competitors with strategies to outrank winning channels."
+    desc: "Analysis of top competitors’ keywords, backlinks, and SEO gaps."
   },
   {
-    title: "Algorithm Behavior Analysis",
-    desc: "Analysis of retention, suggested videos, and optimal publishing timing aligned with YouTube’s algorithm."
+    title: "On-Page SEO Optimization Report",
+    desc: "Evaluation and optimization of page titles, meta tags, headings, images, and internal links."
   },
   {
-    title: "30-Day Ranking Strategy Plan",
-    desc: "A step-by-step SEO action plan designed to improve rankings within the first 30 days."
+    title: "Content Optimization Report",
+    desc: "Improvement of existing content for better keyword usage and SEO performance."
   },
   {
-    title: "SEO Score Improvement Report",
-    desc: "Before-and-after performance comparison highlighting SEO score and visibility improvements."
+    title: "Content Strategy / Content Calendar",
+    desc: "A structured content plan with SEO-focused topics and publishing schedule."
   },
   {
-    title: "Bonus Resources",
-    desc: "Extra content ideas and proven thumbnail scripts to accelerate channel growth."
-  }
+    title: "Technical SEO Report",
+    desc: "Assessment of site speed, mobile usability, Core Web Vitals, and crawlability."
+  },
+  {
+    title: "URL Structure & Site Architecture Report",
+    desc: "Review of SEO-friendly URLs and overall site structure for better navigation."
+  },
+  {
+    title: "Backlink / Off-Page SEO Report",
+    desc: "Analysis of backlink profile, link quality, and anchor text distribution."
+  },
+  {
+    title: "Local SEO Report (If applicable)",
+    desc: "Evaluation of local SEO performance to improve visibility in local search results."
+  },
+  {
+    title: "Google Analytics Performance Report",
+    desc: "Analysis of traffic sources, user behavior, and top-performing pages."
+  },
+  {
+    title: "Google Search Console Report",
+    desc: "Review of search performance, indexing status, and technical issues."
+  },
+  {
+    title: "Monthly SEO Progress & Ranking Report",
+    desc: "Monthly tracking of keyword rankings, traffic growth, and SEO progress."
+  },
 ];
 
 
@@ -110,20 +130,24 @@ const services = [
 
   const faqData = [
     {
-      q: "Do you need channel access?",
-      a: "I can deliver full audit and editable files without access. If you want me to implement changes, channel manager access is required (no password, manager role)."
+      q: "How long will it take for my website to rank on Google?",
+      a: "SEO results depend on competition, website condition, and strategy, but most sites see noticeable improvements within 3–6 months."
     },
     {
-      q: "Do you guarantee subscribers or views?",
-      a: "I cannot guarantee specific numbers. I guarantee professional SEO improvements and an actionable plan that increases the chance of improved discovery and growth."
+      q: "What type of SEO services do you provide?",
+      a: "I provide complete SEO solutions including website audit, keyword research, on-page & off-page optimization, content strategy, link building, and monthly performance tracking."
     },
     {
-      q: "Can you help with thumbnails/design?",
-      a: "Yes — I provide thumbnail guidelines and 2–3 mockups. Full design work can be added as an extra."
+      q: "Will my website traffic increase after SEO?",
+      a: "Yes, proper SEO improves organic traffic by targeting the right keywords and optimizing your website for both search engines and users, leading to better visibility and conversions."
     },
     {
-      q: "How do you measure success?",
-      a: "Key metrics: search impressions, CTR, average view duration, suggested impressions, and subscriber rate. I provide before/after screenshots for transparency."
+      q: "Do you guarantee first-page rankings?",
+      a: "No one can guarantee first-page rankings, but I follow proven, white-hat SEO strategies to maximize your website’s chances of ranking higher consistently over time."
+    },
+    {
+      q: "How do you measure SEO success?",
+      a: "SEO success is measured through improved keyword rankings, increased organic traffic, better user engagement, and detailed monthly reports showing progress and next action plans."
     }
   ];
 
@@ -160,7 +184,7 @@ const services = [
 
     <div className="mt-4 d-flex justify-content-center gap-3">
       <a href="https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22" className="btn btn-warning fw-semibold px-4 py-2 rounded-pill shadow">
-        Get a Free Channel Audit
+        Get a Free Mini Audit
       </a>
 
       <a href="#" onClick={(e) => {
@@ -333,8 +357,7 @@ const services = [
           <div className="underline mx-auto"></div>
 
           <p className="wow-subtitle text-muted mt-3 fs-5">
-            You will receive a complete YouTube SEO package designed to boost visibility,
-            rankings, and audience engagement.
+            Everything You’ll Receive to Improve Your SEO
           </p>
         </div>
 
@@ -372,7 +395,121 @@ const services = [
  
             
 
-{/* FAQ  */}
+    {/* pricing plan  */}
+    <div className='bacgkround' id='seePrice'>
+    <div className="container-fluid px-5 py-5">
+      <div>
+        <h2 className="text-center fw-bold mb-2">Website SEO Pricing Plans</h2>
+       <p className="text-center text-muted mb-5">Choose a plan that fits your growth goal</p>
+      </div>
+
+      <div className="row g-4 justify-content-center">
+
+        {/* Basic */}
+        <div className="col-md-4">
+          <div className="pricing-box text-center p-4 position-relative" data-aos="fade-left">
+            <div className="plan-title">Basic</div>
+
+            <h2 className="price">
+              <span className="old-price">$249</span> $149 <span>/Month</span>
+            </h2>
+
+            <ul className="features list-unstyled text-start mt-3">
+              <li><FaCheck /> Website SEO Audit</li>
+              <li><FaCheck /> Keyword Research & Mapping</li>
+              <li><FaCheck /> On-Page SEO Recommendations</li>
+              <li><FaCheck /> Monthly SEO Progress Report</li>
+              <li><FaCheck /> Up to 5 Targeted Keywords</li>
+            </ul>
+
+            <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn mt-4 btn">Order Now On WhatsApp</a>
+          </div>
+        </div>
+
+        {/* Standard - Featured */}
+        <div className="col-md-4">
+          <div className="pricing-box featured text-center p-4 position-relative" data-aos="zoom-in">
+            {/* <span className="best-badge">Best Value</span> */}
+            <div className="plan-title featured-title">Standard</div>
+
+            <h2 className="price">
+              <span className="old-price">$389</span> $249 <span>/Project</span>
+            </h2>
+
+            <ul className="features list-unstyled text-start mt-3">
+              <li><FaCheck /> Everything in Basic Plan</li>
+              <li><FaCheck /> Competitor Analysis</li>
+              <li><FaCheck /> Content Optimization Suggestions</li>
+              <li><FaCheck /> Link Building Strategy Guidance</li>
+              <li><FaCheck /> Up to 15 Targeted Keywords</li>
+              
+            </ul>
+
+            <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn featured-btn mt-4 btn">Order Now On WhatsApp</a>
+          </div>
+        </div>
+
+        {/* Premium */}
+        <div className="col-md-4">
+          <div className="pricing-box text-center p-4 position-relative" data-aos="fade-right">
+            <div className="plan-title">Premium</div>
+
+            <h2 className="price">
+              <span className="old-price">$449</span> $349 <span>/Month</span>
+            </h2>
+
+            <ul className="features list-unstyled text-start mt-3">
+              <li><FaCheck /> Everything in Standard Plan</li>
+              <li><FaCheck /> Technical SEO Recommendations</li>
+              <li><FaCheck /> Backlink & Off-Page SEO Analysis</li>
+              <li><FaCheck /> Local SEO Optimization (if applicable)</li>
+              <li><FaCheck /> Up to 30 Targeted Keywords</li>
+            </ul>
+
+            <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn mt-4 btn">Order Now On WhatsApp</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+    {/* Optional Add-ons */}
+<div className="row justify-content-center mt-5">
+  <div className="col-md-10">
+    <div className="pricing-box p-4" data-aos="fade-up">
+      <h3 className="fw-bold text-center mb-4">Optional Add-ons</h3>
+
+      <ul className="list-unstyled add-ons-list">
+        <li className="d-flex justify-content-between border-bottom py-2">
+          <span className="fw-bold">Extra Keyword Targeting</span>
+          <strong>$20 / keyword</strong>
+        </li>
+
+        <li className="d-flex justify-content-between border-bottom py-2">
+          <span className="fw-bold">Blog Content Writing & Optimization</span>
+          <strong>$50 / post</strong>
+        </li>
+
+        <li className="d-flex justify-content-between border-bottom py-2">
+          <span className="fw-bold">Google Analytics & Search Console Setup</span>
+          <strong>$50 one-time</strong>
+        </li>
+
+        <li className="d-flex justify-content-between border-bottom py-2">
+          <span className="fw-bold">Advanced Link Building Package</span>
+          <strong>$100 / month</strong>
+        </li>
+
+        <li className="d-flex justify-content-between py-2">
+          <span className="fw-bold">Local Business Citation Setup</span>
+          <strong>$30 / location</strong>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+    {/* FAQ  */}
 
    <section className="py-5 faq-section">
       <div className="container-fluid px-5">
@@ -410,84 +547,6 @@ const services = [
       </div>
     </section>
 
-
-    {/* pricing plan  */}
-    <div className='bacgkround' id='seePrice'>
-    <div className="container-fluid px-5 py-5">
-      <div>
-        <h2 className="text-center fw-bold mb-2">YouTube SEO Pricing Plans</h2>
-       <p className="text-center text-muted mb-5">Choose a plan that fits your growth goal</p>
-      </div>
-
-      <div className="row g-4 justify-content-center">
-
-        {/* Basic */}
-        <div className="col-md-4">
-          <div className="pricing-box text-center p-4 position-relative" data-aos="fade-left">
-            <div className="plan-title">Basic</div>
-
-            <h2 className="price">
-              <span className="old-price">$49</span> $29 <span>/Project</span>
-            </h2>
-
-            <ul className="features list-unstyled text-start mt-3">
-              <li><FaCheck /> Title Optimization</li>
-              <li><FaCheck /> Keyword Research</li>
-              <li><FaCheck /> Thumbnail Suggestion</li>
-              <li><FaTimes className="text-danger" /> Competitor Analysis</li>
-              <li><FaTimes className="text-danger" /> SEO Report</li>
-            </ul>
-
-            <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn mt-4 btn">Order Now On WhatsApp</a>
-          </div>
-        </div>
-
-        {/* Standard - Featured */}
-        <div className="col-md-4">
-          <div className="pricing-box featured text-center p-4 position-relative" data-aos="zoom-in">
-            {/* <span className="best-badge">Best Value</span> */}
-            <div className="plan-title featured-title">Standard</div>
-
-            <h2 className="price">
-              <span className="old-price">$89</span> $59 <span>/Project</span>
-            </h2>
-
-            <ul className="features list-unstyled text-start mt-3">
-              <li><FaCheck /> Title + Tag Optimization</li>
-              <li><FaCheck /> Full Keyword Plan</li>
-              <li><FaCheck /> Competitor Research</li>
-              <li><FaCheck /> SEO Description</li>
-              <li><FaTimes className="text-danger" /> 24/7 Support</li>
-            </ul>
-
-            <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn featured-btn mt-4 btn">Order Now On WhatsApp</a>
-          </div>
-        </div>
-
-        {/* Premium */}
-        <div className="col-md-4">
-          <div className="pricing-box text-center p-4 position-relative" data-aos="fade-right">
-            <div className="plan-title">Premium</div>
-
-            <h2 className="price">
-              <span className="old-price">$149</span> $99 <span>/Project</span>
-            </h2>
-
-            <ul className="features list-unstyled text-start mt-3">
-              <li><FaCheck /> Full YouTube SEO</li>
-              <li><FaCheck /> Ranking Strategy & Audit</li>
-              <li><FaCheck /> Performance Monitoring</li>
-              <li><FaCheck /> Thumbnail A/B Testing</li>
-              <li><FaCheck /> 24/7 Priority Support</li>
-            </ul>
-
-            <a href='https://api.whatsapp.com/send?phone=8801947349917&text=%22Hey%2C%20Welcome%20to%20my%20whatsapp%20account%22' className="pricing-btn mt-4 btn">Order Now On WhatsApp</a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    </div>
 
     <SocialIcon />
     <Footer />

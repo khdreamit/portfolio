@@ -10,8 +10,15 @@ const Contact = () => {
         <div>           
             <Navbar />
                 <div className="review-header">
-                    <h1 className="text-white fw-bold ls">CONTACT ME</h1>
-                </div>
+  <h1 className="text-white fw-bold ls">CONTACT ME</h1>
+
+  <div className="breadcrumb">
+    <a href="/" className="breadcrumb-link">Home</a>
+    <span className="breadcrumb-separator">&lt;</span>
+    <span className="breadcrumb-current">Contact Me</span>
+  </div>
+</div>
+
 
     <div className="contact-section py-5" style={{ background: "#f1f3f5" }}>
       <Container>

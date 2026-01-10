@@ -35,8 +35,15 @@ const ClientReview = () => {
 
       {/* ---------- Top Banner Section ---------- */}
       <div className="review-header">
-        <h1 className="text-white fw-bold ls">Client Reviews</h1>
-      </div>
+  <h1 className="text-white fw-bold ls">Client Reviews</h1>
+
+  <div className="breadcrumb">
+    <a href="/" className="breadcrumb-link">Home</a>
+    <span className="breadcrumb-separator">&lt;</span>
+    <span className="breadcrumb-current">Client Reviews</span>
+  </div>
+</div>
+
 
       {/* ---------- Image Grid Section ---------- */}
       <div className="container-fluid px-5 py-5">

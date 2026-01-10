@@ -3,11 +3,50 @@
   height: 200px;
   background: url("../../assets/youBG.jpg") center/cover no-repeat;
   display: flex;
+  flex-direction: column;   /* breadcrumb + title vertically align করার জন্য */
   align-items: center;
   justify-content: center;
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
 }
+
+/* overlay for better text visibility */
+.review-header:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* 40% dark overlay */
+  z-index: 1;
+}
+
+/* Text and breadcrumb above overlay */
+.review-header h1,
+.review-header .breadcrumb {
+  position: relative;
+  z-index: 2;
+  color: #fff; /* text white */
+}
+
+/* breadcrumb styling */
+.breadcrumb {
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+.breadcrumb-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.breadcrumb-separator {
+  color: #fff;
+  margin: 0 5px;
+}
+
+.breadcrumb-current {
+  color: #ccc;
+}
+
 
 /* Dark overlay over header */
 .review-header::before {

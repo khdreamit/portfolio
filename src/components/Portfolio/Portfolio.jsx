@@ -492,8 +492,15 @@ const Portfolio = () => {
     <div>
       <Navbar />
       <div className="portfolio-header">
-        <h1 className="text-white fw-bold ls">PORTFOLIO</h1>
-      </div>
+  <h1 className="text-white fw-bold ls">PORTFOLIO</h1>
+
+  <div className="breadcrumb">
+    <a href="/" className="breadcrumb-link">Home</a>
+    <span className="breadcrumb-separator"> &lt; </span>
+    <span className="breadcrumb-current">Portfolio</span>
+  </div>
+</div>
+
 
       <div className="container-fluid px-5 py-5">
 
