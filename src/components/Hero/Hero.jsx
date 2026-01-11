@@ -6,12 +6,12 @@ import { NavLink } from 'react-router';
 
 const Hero = () => {
   return (
-    <section className="py-5 hero-bg">
+    <section className="hero-bg hero-section">
       <div className="container-fluid px-5">
         <div className="row align-items-center">
 
           {/* Text Content */}
-          <div className="col-lg-6 mb-4 mb-lg-0">
+          <div className="col-lg-6 hero-text">
             <h4 className="text-secondary fw-semibold mb-2">Hello, I'm</h4>
             <h1 className="fw-bold display-4">MD. ABDUL HALIM</h1>
             <p className="mt-3 text-dark fs-5">

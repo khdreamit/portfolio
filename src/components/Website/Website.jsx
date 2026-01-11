@@ -474,7 +474,7 @@ const services = [
     </div>
     </div>
     {/* Optional Add-ons */}
-<div className="row justify-content-center mt-5">
+<div className="row justify-content-center mt-5 mb-5">
   <div className="col-md-10">
     <div className="pricing-box p-4" data-aos="fade-up">
       <h3 className="fw-bold text-center mb-4">Optional Add-ons</h3>
